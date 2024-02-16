@@ -1,0 +1,4 @@
+Hour Log: 
+07/10-08/17: 19 hours
+
+current version as of 240123 is wlTranscribe(0.1.6).py

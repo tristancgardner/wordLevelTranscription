@@ -1,0 +1,5222 @@
+{
+    "text": " Care for speeds? XO Wayne, E1C, take one. Okay, so again. And when you're ready. Now that we know how corporate sustainability evolved, let's look at why it's important. In this session, we outline the high level importance of sustainability and examine why quantifying environmental and social and governance impacts creates value and helps communicate. Sorry. It's a long one there. Yeah, yeah, yeah. I'm seeing that. All right. Now that we know how corporate sustainability evolved, let's look at why it's important. In this session, we will outline the high level importance of sustainability and examine why quantifying environmental, social, and governance impacts creates value and helps communicate the value to shareholders and other stakeholders. Can I comment on this? Actually, we should probably do another take on that. We can hit the end part. You want to say it helps communicate that value. So you're like kind of, it's from one to the other. Yes. Yes, and I replaced that with the, I think. Yep. Okay. All right. Try that again. Now that we know how corporate sustainability evolved, let's look at why it's important. In this session, we will outline the high level importance of sustainability and examine why quantifying environmental, social, and governance impacts I really tried to hold it in. It's all right. Now that we know how corporate sustainability evolved, let's look at why it's important. In this session, we will outline the high level importance of sustainability and examine why quantifying environmental, social, and governance impacts creates value and helps communicate that value to shareholders and other stakeholders. As Chris Laszlo highlights in his 2011 book, Embedded Sustainability, three global trends redefined business for the 21st century. Declining resources, that is, they're more difficult and expensive to extract. Radical transparency, for example, bad news goes viral in minutes, and increasing stakeholder expectations. Customers, employees, investors, stockholders, governments, and communities all expect more. These trends reshape how companies compete. Companies that embed whole systems thinking into core strategy minimize risks, protect assets, enhance social acceptance, and increase profits. Sustainability empowers people to optimize individual functions and align them throughout an entire enterprise, from sourcing to engineering to procurement, environmental management, and government and community relations. Environmental, social, and governance factors represent a shift. Corporate governance. Okay. That's a real positive picture. Just looking at that, do you mean to say that environmental, social, and corporate governance? Yeah, to put the word corporate in there? Yeah, no, no, I just want to make sure you did mean that. Yeah, yeah. Okay, cool. And the reason I've done that is sometimes with the G in governance, people want to talk about it as a government. Got it. Yeah, I brought it to that. And so I wanted to just make that clear. We're actually talking about the leadership of the company. Especially within the context of this. Okay, cool. But I stumble on it. All right, where do you want me to start? Environmental. All right. Environmental, social, and corporate governance factors represent a shift in how to create value and increase profitability through sustainability. I'll take you one more time for environmental.",
+    "segments": [
+        {
+            "id": 0,
+            "seek": 0,
+            "start": 0.04,
+            "end": 0.58,
+            "text": " Care for speeds?",
+            "tokens": [
+                50364,
+                9532,
+                337,
+                16411,
+                30,
+                50439
+            ],
+            "temperature": 0.0,
+            "avg_logprob": -0.4381100555946087,
+            "compression_ratio": 1.2158273381294964,
+            "no_speech_prob": 0.06774255633354187,
+            "confidence": 0.452,
+            "words": [
+                {
+                    "text": "Care",
+                    "start": 0.04,
+                    "end": 0.22,
+                    "confidence": 0.183
+                },
+                {
+                    "text": "for",
+                    "start": 0.22,
+                    "end": 0.34,
+                    "confidence": 0.861
+                },
+                {
+                    "text": "speeds?",
+                    "start": 0.34,
+                    "end": 0.58,
+                    "confidence": 0.586
+                }
+            ]
+        },
+        {
+            "id": 1,
+            "seek": 0,
+            "start": 1.58,
+            "end": 4.52,
+            "text": " XO Wayne, E1C, take one.",
+            "tokens": [
+                50439,
+                1783,
+                46,
+                22101,
+                11,
+                462,
+                16,
+                34,
+                11,
+                747,
+                472,
+                13,
+                50614
+            ],
+            "temperature": 0.0,
+            "avg_logprob": -0.4381100555946087,
+            "compression_ratio": 1.2158273381294964,
+            "no_speech_prob": 0.06774255633354187,
+            "confidence": 0.642,
+            "words": [
+                {
+                    "text": "XO",
+                    "start": 1.58,
+                    "end": 2.0,
+                    "confidence": 0.484
+                },
+                {
+                    "text": "Wayne,",
+                    "start": 2.0,
+                    "end": 2.42,
+                    "confidence": 0.205
+                },
+                {
+                    "text": "E1C,",
+                    "start": 2.88,
+                    "end": 3.56,
+                    "confidence": 0.889
+                },
+                {
+                    "text": "take",
+                    "start": 3.82,
+                    "end": 4.3,
+                    "confidence": 0.969
+                },
+                {
+                    "text": "one.",
+                    "start": 4.3,
+                    "end": 4.52,
+                    "confidence": 0.885
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "seek": 0,
+            "start": 15.9,
+            "end": 17.58,
+            "text": " Okay, so again.",
+            "tokens": [
+                50614,
+                1033,
+                11,
+                370,
+                797,
+                13,
+                51364
+            ],
+            "temperature": 0.0,
+            "avg_logprob": -0.4381100555946087,
+            "compression_ratio": 1.2158273381294964,
+            "no_speech_prob": 0.06774255633354187,
+            "confidence": 0.59,
+            "words": [
+                {
+                    "text": "Okay,",
+                    "start": 15.9,
+                    "end": 16.36,
+                    "confidence": 0.406
+                },
+                {
+                    "text": "so",
+                    "start": 16.58,
+                    "end": 17.12,
+                    "confidence": 0.582
+                },
+                {
+                    "text": "again.",
+                    "start": 17.12,
+                    "end": 17.58,
+                    "confidence": 0.866
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "seek": 0,
+            "start": 20.14,
+            "end": 20.82,
+            "text": " And when you're ready.",
+            "tokens": [
+                51364,
+                400,
+                562,
+                291,
+                434,
+                1919,
+                13,
+                51439
+            ],
+            "temperature": 0.0,
+            "avg_logprob": -0.4381100555946087,
+            "compression_ratio": 1.2158273381294964,
+            "no_speech_prob": 0.06774255633354187,
+            "confidence": 0.943,
+            "words": [
+                {
+                    "text": "And",
+                    "start": 20.14,
+                    "end": 20.4,
+                    "confidence": 0.88
+                },
+                {
+                    "text": "when",
+                    "start": 20.4,
+                    "end": 20.56,
+                    "confidence": 0.949
+                },
+                {
+                    "text": "you're",
+                    "start": 20.56,
+                    "end": 20.7,
+                    "confidence": 0.949
+                },
+                {
+                    "text": "ready.",
+                    "start": 20.7,
+                    "end": 20.82,
+                    "confidence": 0.991
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "seek": 0,
+            "start": 21.82,
+            "end": 24.54,
+            "text": " Now that we know how corporate sustainability evolved,",
+            "tokens": [
+                51439,
+                823,
+                300,
+                321,
+                458,
+                577,
+                10896,
+                16360,
+                14178,
+                11,
+                51614
+            ],
+            "temperature": 0.0,
+            "avg_logprob": -0.4381100555946087,
+            "compression_ratio": 1.2158273381294964,
+            "no_speech_prob": 0.06774255633354187,
+            "confidence": 0.989,
+            "words": [
+                {
+                    "text": "Now",
+                    "start": 21.82,
+                    "end": 21.98,
+                    "confidence": 0.988
+                },
+                {
+                    "text": "that",
+                    "start": 21.98,
+                    "end": 22.12,
+                    "confidence": 0.982
+                },
+                {
+                    "text": "we",
+                    "start": 22.12,
+                    "end": 22.26,
+                    "confidence": 0.998
+                },
+                {
+                    "text": "know",
+                    "start": 22.26,
+                    "end": 22.46,
+                    "confidence": 0.998
+                },
+                {
+                    "text": "how",
+                    "start": 22.46,
+                    "end": 22.98,
+                    "confidence": 0.984
+                },
+                {
+                    "text": "corporate",
+                    "start": 22.98,
+                    "end": 23.32,
+                    "confidence": 0.982
+                },
+                {
+                    "text": "sustainability",
+                    "start": 23.32,
+                    "end": 23.92,
+                    "confidence": 0.992
+                },
+                {
+                    "text": "evolved,",
+                    "start": 23.92,
+                    "end": 24.54,
+                    "confidence": 0.991
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "seek": 0,
+            "start": 25.2,
+            "end": 26.64,
+            "text": " let's look at why it's important.",
+            "tokens": [
+                51614,
+                718,
+                311,
+                574,
+                412,
+                983,
+                309,
+                311,
+                1021,
+                13,
+                51739
+            ],
+            "temperature": 0.0,
+            "avg_logprob": -0.4381100555946087,
+            "compression_ratio": 1.2158273381294964,
+            "no_speech_prob": 0.06774255633354187,
+            "confidence": 0.993,
+            "words": [
+                {
+                    "text": "let's",
+                    "start": 25.2,
+                    "end": 25.44,
+                    "confidence": 0.983
+                },
+                {
+                    "text": "look",
+                    "start": 25.44,
+                    "end": 25.56,
+                    "confidence": 0.998
+                },
+                {
+                    "text": "at",
+                    "start": 25.56,
+                    "end": 25.7,
+                    "confidence": 0.999
+                },
+                {
+                    "text": "why",
+                    "start": 25.7,
+                    "end": 26.06,
+                    "confidence": 0.996
+                },
+                {
+                    "text": "it's",
+                    "start": 26.06,
+                    "end": 26.28,
+                    "confidence": 0.992
+                },
+                {
+                    "text": "important.",
+                    "start": 26.28,
+                    "end": 26.64,
+                    "confidence": 0.999
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "seek": 2750,
+            "start": 27.62,
+            "end": 31.06,
+            "text": " In this session, we outline the high level importance of sustainability",
+            "tokens": [
+                50364,
+                682,
+                341,
+                5481,
+                11,
+                321,
+                16387,
+                264,
+                1090,
+                1496,
+                7379,
+                295,
+                16360,
+                50564
+            ],
+            "temperature": 0.0,
+            "avg_logprob": -0.13581705547514417,
+            "compression_ratio": 1.8283261802575108,
+            "no_speech_prob": 0.019913731142878532,
+            "confidence": 0.918,
+            "words": [
+                {
+                    "text": "In",
+                    "start": 27.62,
+                    "end": 27.74,
+                    "confidence": 0.989
+                },
+                {
+                    "text": "this",
+                    "start": 27.74,
+                    "end": 27.92,
+                    "confidence": 0.998
+                },
+                {
+                    "text": "session,",
+                    "start": 27.92,
+                    "end": 28.22,
+                    "confidence": 0.99
+                },
+                {
+                    "text": "we",
+                    "start": 28.4,
+                    "end": 28.66,
+                    "confidence": 0.924
+                },
+                {
+                    "text": "outline",
+                    "start": 28.66,
+                    "end": 29.06,
+                    "confidence": 0.944
+                },
+                {
+                    "text": "the",
+                    "start": 29.06,
+                    "end": 29.38,
+                    "confidence": 0.971
+                },
+                {
+                    "text": "high",
+                    "start": 29.38,
+                    "end": 29.66,
+                    "confidence": 0.981
+                },
+                {
+                    "text": "level",
+                    "start": 29.66,
+                    "end": 29.9,
+                    "confidence": 0.725
+                },
+                {
+                    "text": "importance",
+                    "start": 29.9,
+                    "end": 30.3,
+                    "confidence": 0.915
+                },
+                {
+                    "text": "of",
+                    "start": 30.3,
+                    "end": 30.54,
+                    "confidence": 0.745
+                },
+                {
+                    "text": "sustainability",
+                    "start": 30.54,
+                    "end": 31.06,
+                    "confidence": 0.977
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "seek": 2750,
+            "start": 31.56,
+            "end": 36.9,
+            "text": " and examine why quantifying environmental and social and governance impacts",
+            "tokens": [
+                50564,
+                293,
+                17496,
+                983,
+                4426,
+                5489,
+                8303,
+                293,
+                2093,
+                293,
+                17449,
+                11606,
+                50839
+            ],
+            "temperature": 0.0,
+            "avg_logprob": -0.13581705547514417,
+            "compression_ratio": 1.8283261802575108,
+            "no_speech_prob": 0.019913731142878532,
+            "confidence": 0.861,
+            "words": [
+                {
+                    "text": "and",
+                    "start": 31.56,
+                    "end": 31.74,
+                    "confidence": 0.993
+                },
+                {
+                    "text": "examine",
+                    "start": 31.74,
+                    "end": 32.0,
+                    "confidence": 0.937
+                },
+                {
+                    "text": "why",
+                    "start": 32.0,
+                    "end": 32.34,
+                    "confidence": 0.992
+                },
+                {
+                    "text": "quantifying",
+                    "start": 32.34,
+                    "end": 33.48,
+                    "confidence": 0.961
+                },
+                {
+                    "text": "environmental",
+                    "start": 33.48,
+                    "end": 34.34,
+                    "confidence": 0.852
+                },
+                {
+                    "text": "and",
+                    "start": 34.34,
+                    "end": 34.72,
+                    "confidence": 0.761
+                },
+                {
+                    "text": "social",
+                    "start": 34.72,
+                    "end": 35.08,
+                    "confidence": 0.996
+                },
+                {
+                    "text": "and",
+                    "start": 35.08,
+                    "end": 35.96,
+                    "confidence": 0.669
+                },
+                {
+                    "text": "governance",
+                    "start": 35.96,
+                    "end": 36.3,
+                    "confidence": 0.943
+                },
+                {
+                    "text": "impacts",
+                    "start": 36.3,
+                    "end": 36.9,
+                    "confidence": 0.554
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "seek": 2750,
+            "start": 37.14,
+            "end": 39.02,
+            "text": " creates value and helps communicate.",
+            "tokens": [
+                50839,
+                7829,
+                2158,
+                293,
+                3665,
+                7890,
+                13,
+                50964
+            ],
+            "temperature": 0.0,
+            "avg_logprob": -0.13581705547514417,
+            "compression_ratio": 1.8283261802575108,
+            "no_speech_prob": 0.019913731142878532,
+            "confidence": 0.986,
+            "words": [
+                {
+                    "text": "creates",
+                    "start": 37.14,
+                    "end": 37.46,
+                    "confidence": 0.972
+                },
+                {
+                    "text": "value",
+                    "start": 37.46,
+                    "end": 37.9,
+                    "confidence": 0.998
+                },
+                {
+                    "text": "and",
+                    "start": 37.9,
+                    "end": 38.18,
+                    "confidence": 0.985
+                },
+                {
+                    "text": "helps",
+                    "start": 38.18,
+                    "end": 38.4,
+                    "confidence": 0.986
+                },
+                {
+                    "text": "communicate.",
+                    "start": 38.4,
+                    "end": 39.02,
+                    "confidence": 0.989
+                }
+            ]
+        },
+        {
+            "id": 9,
+            "seek": 2750,
+            "start": 39.82,
+            "end": 40.08,
+            "text": " Sorry.",
+            "tokens": [
+                50964,
+                4919,
+                13,
+                51039
+            ],
+            "temperature": 0.0,
+            "avg_logprob": -0.13581705547514417,
+            "compression_ratio": 1.8283261802575108,
+            "no_speech_prob": 0.019913731142878532,
+            "confidence": 0.975,
+            "words": [
+                {
+                    "text": "Sorry.",
+                    "start": 39.82,
+                    "end": 40.08,
+                    "confidence": 0.975
+                }
+            ]
+        },
+        {
+            "id": 10,
+            "seek": 2750,
+            "start": 41.36,
+            "end": 42.38,
+            "text": " It's a long one there.",
+            "tokens": [
+                51039,
+                467,
+                311,
+                257,
+                938,
+                472,
+                456,
+                13,
+                51114
+            ],
+            "temperature": 0.0,
+            "avg_logprob": -0.13581705547514417,
+            "compression_ratio": 1.8283261802575108,
+            "no_speech_prob": 0.019913731142878532,
+            "confidence": 0.932,
+            "words": [
+                {
+                    "text": "It's",
+                    "start": 41.36,
+                    "end": 41.56,
+                    "confidence": 0.984
+                },
+                {
+                    "text": "a",
+                    "start": 41.56,
+                    "end": 41.8,
+                    "confidence": 0.85
+                },
+                {
+                    "text": "long",
+                    "start": 41.8,
+                    "end": 42.02,
+                    "confidence": 0.996
+                },
+                {
+                    "text": "one",
+                    "start": 42.02,
+                    "end": 42.22,
+                    "confidence": 0.991
+                },
+                {
+                    "text": "there.",
+                    "start": 42.22,
+                    "end": 42.38,
+                    "confidence": 0.807
+                }
+            ]
+        },
+        {
+            "id": 11,
+            "seek": 2750,
+            "start": 42.7,
+            "end": 44.02,
+            "text": " Yeah, yeah, yeah. I'm seeing that.",
+            "tokens": [
+                51114,
+                865,
+                11,
+                1338,
+                11,
+                1338,
+                13,
+                286,
+                478,
+                2577,
+                300,
+                13,
+                51214
+            ],
+            "temperature": 0.0,
+            "avg_logprob": -0.13581705547514417,
+            "compression_ratio": 1.8283261802575108,
+            "no_speech_prob": 0.019913731142878532,
+            "confidence": 0.858,
+            "words": [
+                {
+                    "text": "Yeah,",
+                    "start": 42.7,
+                    "end": 42.9,
+                    "confidence": 0.971
+                },
+                {
+                    "text": "yeah,",
+                    "start": 42.96,
+                    "end": 43.1,
+                    "confidence": 0.938
+                },
+                {
+                    "text": "yeah.",
+                    "start": 43.16,
+                    "end": 43.26,
+                    "confidence": 0.957
+                },
+                {
+                    "text": "I'm",
+                    "start": 43.44,
+                    "end": 43.58,
+                    "confidence": 0.656
+                },
+                {
+                    "text": "seeing",
+                    "start": 43.58,
+                    "end": 43.78,
+                    "confidence": 0.916
+                },
+                {
+                    "text": "that.",
+                    "start": 43.78,
+                    "end": 44.02,
+                    "confidence": 0.996
+                }
+            ]
+        },
+        {
+            "id": 12,
+            "seek": 2750,
+            "start": 44.74,
+            "end": 45.42,
+            "text": " All right.",
+            "tokens": [
+                51214,
+                1057,
+                558,
+                13,
+                51314
+            ],
+            "temperature": 0.0,
+            "avg_logprob": -0.13581705547514417,
+            "compression_ratio": 1.8283261802575108,
+            "no_speech_prob": 0.019913731142878532,
+            "confidence": 0.695,
+            "words": [
+                {
+                    "text": "All",
+                    "start": 44.74,
+                    "end": 44.96,
+                    "confidence": 0.484
+                },
+                {
+                    "text": "right.",
+                    "start": 44.96,
+                    "end": 45.42,
+                    "confidence": 0.998
+                }
+            ]
+        },
+        {
+            "id": 13,
+            "seek": 2750,
+            "start": 46.6,
+            "end": 48.56,
+            "text": " Now that we know how corporate sustainability evolved,",
+            "tokens": [
+                51314,
+                823,
+                300,
+                321,
+                458,
+                577,
+                10896,
+                16360,
+                14178,
+                11,
+                51414
+            ],
+            "temperature": 0.0,
+            "avg_logprob": -0.13581705547514417,
+            "compression_ratio": 1.8283261802575108,
+            "no_speech_prob": 0.019913731142878532,
+            "confidence": 0.997,
+            "words": [
+                {
+                    "text": "Now",
+                    "start": 46.6,
+                    "end": 46.78,
+                    "confidence": 0.999
+                },
+                {
+                    "text": "that",
+                    "start": 46.78,
+                    "end": 46.9,
+                    "confidence": 0.996
+                },
+                {
+                    "text": "we",
+                    "start": 46.9,
+                    "end": 47.02,
+                    "confidence": 0.999
+                },
+                {
+                    "text": "know",
+                    "start": 47.02,
+                    "end": 47.18,
+                    "confidence": 0.999
+                },
+                {
+                    "text": "how",
+                    "start": 47.18,
+                    "end": 47.4,
+                    "confidence": 0.998
+                },
+                {
+                    "text": "corporate",
+                    "start": 47.4,
+                    "end": 47.7,
+                    "confidence": 0.997
+                },
+                {
+                    "text": "sustainability",
+                    "start": 47.7,
+                    "end": 48.06,
+                    "confidence": 0.989
+                },
+                {
+                    "text": "evolved,",
+                    "start": 48.06,
+                    "end": 48.56,
+                    "confidence": 0.997
+                }
+            ]
+        },
+        {
+            "id": 14,
+            "seek": 2750,
+            "start": 48.94,
+            "end": 50.22,
+            "text": " let's look at why it's important.",
+            "tokens": [
+                51414,
+                718,
+                311,
+                574,
+                412,
+                983,
+                309,
+                311,
+                1021,
+                13,
+                51514
+            ],
+            "temperature": 0.0,
+            "avg_logprob": -0.13581705547514417,
+            "compression_ratio": 1.8283261802575108,
+            "no_speech_prob": 0.019913731142878532,
+            "confidence": 0.998,
+            "words": [
+                {
+                    "text": "let's",
+                    "start": 48.94,
+                    "end": 49.2,
+                    "confidence": 0.997
+                },
+                {
+                    "text": "look",
+                    "start": 49.2,
+                    "end": 49.32,
+                    "confidence": 0.999
+                },
+                {
+                    "text": "at",
+                    "start": 49.32,
+                    "end": 49.46,
+                    "confidence": 0.999
+                },
+                {
+                    "text": "why",
+                    "start": 49.46,
+                    "end": 49.68,
+                    "confidence": 0.999
+                },
+                {
+                    "text": "it's",
+                    "start": 49.68,
+                    "end": 49.88,
+                    "confidence": 0.998
+                },
+                {
+                    "text": "important.",
+                    "start": 49.88,
+                    "end": 50.22,
+                    "confidence": 1.0
+                }
+            ]
+        },
+        {
+            "id": 15,
+            "seek": 2750,
+            "start": 51.02,
+            "end": 54.8,
+            "text": " In this session, we will outline the high level importance of sustainability",
+            "tokens": [
+                51514,
+                682,
+                341,
+                5481,
+                11,
+                321,
+                486,
+                16387,
+                264,
+                1090,
+                1496,
+                7379,
+                295,
+                16360,
+                51739
+            ],
+            "temperature": 0.0,
+            "avg_logprob": -0.13581705547514417,
+            "compression_ratio": 1.8283261802575108,
+            "no_speech_prob": 0.019913731142878532,
+            "confidence": 0.978,
+            "words": [
+                {
+                    "text": "In",
+                    "start": 51.02,
+                    "end": 51.18,
+                    "confidence": 0.988
+                },
+                {
+                    "text": "this",
+                    "start": 51.18,
+                    "end": 51.36,
+                    "confidence": 1.0
+                },
+                {
+                    "text": "session,",
+                    "start": 51.36,
+                    "end": 51.68,
+                    "confidence": 0.998
+                },
+                {
+                    "text": "we",
+                    "start": 51.96,
+                    "end": 52.06,
+                    "confidence": 0.926
+                },
+                {
+                    "text": "will",
+                    "start": 52.06,
+                    "end": 52.18,
+                    "confidence": 0.985
+                },
+                {
+                    "text": "outline",
+                    "start": 52.18,
+                    "end": 52.54,
+                    "confidence": 0.995
+                },
+                {
+                    "text": "the",
+                    "start": 52.54,
+                    "end": 52.76,
+                    "confidence": 0.947
+                },
+                {
+                    "text": "high",
+                    "start": 52.76,
+                    "end": 52.98,
+                    "confidence": 0.998
+                },
+                {
+                    "text": "level",
+                    "start": 52.98,
+                    "end": 53.18,
+                    "confidence": 0.99
+                },
+                {
+                    "text": "importance",
+                    "start": 53.18,
+                    "end": 53.64,
+                    "confidence": 0.99
+                },
+                {
+                    "text": "of",
+                    "start": 53.64,
+                    "end": 54.22,
+                    "confidence": 0.919
+                },
+                {
+                    "text": "sustainability",
+                    "start": 54.22,
+                    "end": 54.8,
+                    "confidence": 0.999
+                }
+            ]
+        },
+        {
+            "id": 16,
+            "seek": 5500,
+            "start": 55.12,
+            "end": 59.68,
+            "text": " and examine why quantifying environmental, social, and governance impacts",
+            "tokens": [
+                50364,
+                293,
+                17496,
+                983,
+                4426,
+                5489,
+                8303,
+                11,
+                2093,
+                11,
+                293,
+                17449,
+                11606,
+                50614
+            ],
+            "temperature": 0.0,
+            "avg_logprob": -0.21236196899414062,
+            "compression_ratio": 1.6327272727272728,
+            "no_speech_prob": 0.027308763936161995,
+            "confidence": 0.979,
+            "words": [
+                {
+                    "text": "and",
+                    "start": 55.12,
+                    "end": 55.3,
+                    "confidence": 0.998
+                },
+                {
+                    "text": "examine",
+                    "start": 55.3,
+                    "end": 55.56,
+                    "confidence": 0.992
+                },
+                {
+                    "text": "why",
+                    "start": 55.56,
+                    "end": 55.92,
+                    "confidence": 0.996
+                },
+                {
+                    "text": "quantifying",
+                    "start": 55.92,
+                    "end": 57.02,
+                    "confidence": 0.993
+                },
+                {
+                    "text": "environmental,",
+                    "start": 57.02,
+                    "end": 57.66,
+                    "confidence": 0.975
+                },
+                {
+                    "text": "social,",
+                    "start": 57.88,
+                    "end": 58.32,
+                    "confidence": 0.969
+                },
+                {
+                    "text": "and",
+                    "start": 58.52,
+                    "end": 58.68,
+                    "confidence": 0.931
+                },
+                {
+                    "text": "governance",
+                    "start": 58.68,
+                    "end": 59.0,
+                    "confidence": 0.992
+                },
+                {
+                    "text": "impacts",
+                    "start": 59.0,
+                    "end": 59.68,
+                    "confidence": 0.954
+                }
+            ]
+        },
+        {
+            "id": 17,
+            "seek": 5500,
+            "start": 60.16,
+            "end": 65.32,
+            "text": " creates value and helps communicate the value to shareholders and other stakeholders.",
+            "tokens": [
+                50614,
+                7829,
+                2158,
+                293,
+                3665,
+                7890,
+                264,
+                2158,
+                281,
+                33294,
+                293,
+                661,
+                17779,
+                13,
+                50914
+            ],
+            "temperature": 0.0,
+            "avg_logprob": -0.21236196899414062,
+            "compression_ratio": 1.6327272727272728,
+            "no_speech_prob": 0.027308763936161995,
+            "confidence": 0.976,
+            "words": [
+                {
+                    "text": "creates",
+                    "start": 60.16,
+                    "end": 60.48,
+                    "confidence": 0.994
+                },
+                {
+                    "text": "value",
+                    "start": 60.48,
+                    "end": 60.96,
+                    "confidence": 0.998
+                },
+                {
+                    "text": "and",
+                    "start": 60.96,
+                    "end": 61.42,
+                    "confidence": 0.984
+                },
+                {
+                    "text": "helps",
+                    "start": 61.42,
+                    "end": 61.62,
+                    "confidence": 0.997
+                },
+                {
+                    "text": "communicate",
+                    "start": 61.62,
+                    "end": 62.18,
+                    "confidence": 0.995
+                },
+                {
+                    "text": "the",
+                    "start": 62.18,
+                    "end": 62.78,
+                    "confidence": 0.946
+                },
+                {
+                    "text": "value",
+                    "start": 62.78,
+                    "end": 63.12,
+                    "confidence": 0.998
+                },
+                {
+                    "text": "to",
+                    "start": 63.12,
+                    "end": 63.52,
+                    "confidence": 0.969
+                },
+                {
+                    "text": "shareholders",
+                    "start": 63.52,
+                    "end": 63.98,
+                    "confidence": 0.968
+                },
+                {
+                    "text": "and",
+                    "start": 63.98,
+                    "end": 64.56,
+                    "confidence": 0.875
+                },
+                {
+                    "text": "other",
+                    "start": 64.56,
+                    "end": 64.84,
+                    "confidence": 0.994
+                },
+                {
+                    "text": "stakeholders.",
+                    "start": 64.84,
+                    "end": 65.32,
+                    "confidence": 0.998
+                }
+            ]
+        },
+        {
+            "id": 18,
+            "seek": 5500,
+            "start": 66.5,
+            "end": 67.26,
+            "text": " Can I comment on this?",
+            "tokens": [
+                50914,
+                1664,
+                286,
+                2871,
+                322,
+                341,
+                30,
+                51014
+            ],
+            "temperature": 0.0,
+            "avg_logprob": -0.21236196899414062,
+            "compression_ratio": 1.6327272727272728,
+            "no_speech_prob": 0.027308763936161995,
+            "confidence": 0.518,
+            "words": [
+                {
+                    "text": "Can",
+                    "start": 66.5,
+                    "end": 66.66,
+                    "confidence": 0.391
+                },
+                {
+                    "text": "I",
+                    "start": 66.66,
+                    "end": 66.82,
+                    "confidence": 0.953
+                },
+                {
+                    "text": "comment",
+                    "start": 66.82,
+                    "end": 67.08,
+                    "confidence": 0.329
+                },
+                {
+                    "text": "on",
+                    "start": 67.08,
+                    "end": 67.22,
+                    "confidence": 0.766
+                },
+                {
+                    "text": "this?",
+                    "start": 67.22,
+                    "end": 67.26,
+                    "confidence": 0.399
+                }
+            ]
+        },
+        {
+            "id": 19,
+            "seek": 5500,
+            "start": 67.5,
+            "end": 69.36,
+            "text": " Actually, we should probably do another take on that.",
+            "tokens": [
+                51014,
+                5135,
+                11,
+                321,
+                820,
+                1391,
+                360,
+                1071,
+                747,
+                322,
+                300,
+                13,
+                51114
+            ],
+            "temperature": 0.0,
+            "avg_logprob": -0.21236196899414062,
+            "compression_ratio": 1.6327272727272728,
+            "no_speech_prob": 0.027308763936161995,
+            "confidence": 0.817,
+            "words": [
+                {
+                    "text": "Actually,",
+                    "start": 67.5,
+                    "end": 67.92,
+                    "confidence": 0.594
+                },
+                {
+                    "text": "we",
+                    "start": 68.04,
+                    "end": 68.22,
+                    "confidence": 0.398
+                },
+                {
+                    "text": "should",
+                    "start": 68.22,
+                    "end": 68.32,
+                    "confidence": 0.969
+                },
+                {
+                    "text": "probably",
+                    "start": 68.32,
+                    "end": 68.52,
+                    "confidence": 0.982
+                },
+                {
+                    "text": "do",
+                    "start": 68.52,
+                    "end": 68.68,
+                    "confidence": 0.914
+                },
+                {
+                    "text": "another",
+                    "start": 68.68,
+                    "end": 68.86,
+                    "confidence": 0.974
+                },
+                {
+                    "text": "take",
+                    "start": 68.86,
+                    "end": 69.04,
+                    "confidence": 0.824
+                },
+                {
+                    "text": "on",
+                    "start": 69.04,
+                    "end": 69.2,
+                    "confidence": 0.988
+                },
+                {
+                    "text": "that.",
+                    "start": 69.2,
+                    "end": 69.36,
+                    "confidence": 0.998
+                }
+            ]
+        },
+        {
+            "id": 20,
+            "seek": 5500,
+            "start": 69.64,
+            "end": 71.99,
+            "text": " We can hit the end part.",
+            "tokens": [
+                51114,
+                492,
+                393,
+                2045,
+                264,
+                917,
+                644,
+                13,
+                51214
+            ],
+            "temperature": 0.0,
+            "avg_logprob": -0.21236196899414062,
+            "compression_ratio": 1.6327272727272728,
+            "no_speech_prob": 0.027308763936161995,
+            "confidence": 0.638,
+            "words": [
+                {
+                    "text": "We",
+                    "start": 69.64,
+                    "end": 69.8,
+                    "confidence": 0.388
+                },
+                {
+                    "text": "can",
+                    "start": 69.8,
+                    "end": 69.98,
+                    "confidence": 0.851
+                },
+                {
+                    "text": "hit",
+                    "start": 69.98,
+                    "end": 70.16,
+                    "confidence": 0.872
+                },
+                {
+                    "text": "the",
+                    "start": 70.16,
+                    "end": 71.66,
+                    "confidence": 0.469
+                },
+                {
+                    "text": "end",
+                    "start": 71.66,
+                    "end": 71.88,
+                    "confidence": 0.858
+                },
+                {
+                    "text": "part.",
+                    "start": 71.88,
+                    "end": 71.99,
+                    "confidence": 0.581
+                }
+            ]
+        },
+        {
+            "id": 21,
+            "seek": 5500,
+            "start": 71.99,
+            "end": 74.18,
+            "text": " You want to say it helps communicate that value.",
+            "tokens": [
+                51214,
+                509,
+                528,
+                281,
+                584,
+                309,
+                3665,
+                7890,
+                300,
+                2158,
+                13,
+                51314
+            ],
+            "temperature": 0.0,
+            "avg_logprob": -0.21236196899414062,
+            "compression_ratio": 1.6327272727272728,
+            "no_speech_prob": 0.027308763936161995,
+            "confidence": 0.898,
+            "words": [
+                {
+                    "text": "You",
+                    "start": 71.99,
+                    "end": 72.26,
+                    "confidence": 0.791
+                },
+                {
+                    "text": "want",
+                    "start": 72.26,
+                    "end": 72.36,
+                    "confidence": 0.836
+                },
+                {
+                    "text": "to",
+                    "start": 72.36,
+                    "end": 72.42,
+                    "confidence": 0.983
+                },
+                {
+                    "text": "say",
+                    "start": 72.42,
+                    "end": 72.6,
+                    "confidence": 0.976
+                },
+                {
+                    "text": "it",
+                    "start": 72.6,
+                    "end": 72.8,
+                    "confidence": 0.673
+                },
+                {
+                    "text": "helps",
+                    "start": 72.8,
+                    "end": 73.06,
+                    "confidence": 0.926
+                },
+                {
+                    "text": "communicate",
+                    "start": 73.06,
+                    "end": 73.46,
+                    "confidence": 0.977
+                },
+                {
+                    "text": "that",
+                    "start": 73.46,
+                    "end": 73.88,
+                    "confidence": 0.99
+                },
+                {
+                    "text": "value.",
+                    "start": 73.88,
+                    "end": 74.18,
+                    "confidence": 0.988
+                }
+            ]
+        },
+        {
+            "id": 22,
+            "seek": 5500,
+            "start": 74.2,
+            "end": 76.44,
+            "text": " So you're like kind of, it's from one to the other.",
+            "tokens": [
+                51314,
+                407,
+                291,
+                434,
+                411,
+                733,
+                295,
+                11,
+                309,
+                311,
+                490,
+                472,
+                281,
+                264,
+                661,
+                13,
+                51464
+            ],
+            "temperature": 0.0,
+            "avg_logprob": -0.21236196899414062,
+            "compression_ratio": 1.6327272727272728,
+            "no_speech_prob": 0.027308763936161995,
+            "confidence": 0.935,
+            "words": [
+                {
+                    "text": "So",
+                    "start": 74.2,
+                    "end": 74.42,
+                    "confidence": 0.943
+                },
+                {
+                    "text": "you're",
+                    "start": 74.42,
+                    "end": 74.6,
+                    "confidence": 0.894
+                },
+                {
+                    "text": "like",
+                    "start": 74.6,
+                    "end": 74.7,
+                    "confidence": 0.768
+                },
+                {
+                    "text": "kind",
+                    "start": 74.7,
+                    "end": 74.88,
+                    "confidence": 0.81
+                },
+                {
+                    "text": "of,",
+                    "start": 74.88,
+                    "end": 75.34,
+                    "confidence": 0.998
+                },
+                {
+                    "text": "it's",
+                    "start": 75.38,
+                    "end": 75.6,
+                    "confidence": 0.963
+                },
+                {
+                    "text": "from",
+                    "start": 75.6,
+                    "end": 75.78,
+                    "confidence": 0.994
+                },
+                {
+                    "text": "one",
+                    "start": 75.78,
+                    "end": 75.98,
+                    "confidence": 0.994
+                },
+                {
+                    "text": "to",
+                    "start": 75.98,
+                    "end": 76.16,
+                    "confidence": 0.994
+                },
+                {
+                    "text": "the",
+                    "start": 76.16,
+                    "end": 76.3,
+                    "confidence": 0.991
+                },
+                {
+                    "text": "other.",
+                    "start": 76.3,
+                    "end": 76.44,
+                    "confidence": 0.988
+                }
+            ]
+        },
+        {
+            "id": 23,
+            "seek": 5500,
+            "start": 76.7,
+            "end": 76.9,
+            "text": " Yes.",
+            "tokens": [
+                51464,
+                1079,
+                13,
+                51514
+            ],
+            "temperature": 0.0,
+            "avg_logprob": -0.21236196899414062,
+            "compression_ratio": 1.6327272727272728,
+            "no_speech_prob": 0.027308763936161995,
+            "confidence": 0.963,
+            "words": [
+                {
+                    "text": "Yes.",
+                    "start": 76.7,
+                    "end": 76.9,
+                    "confidence": 0.963
+                }
+            ]
+        },
+        {
+            "id": 24,
+            "seek": 5500,
+            "start": 77.64,
+            "end": 79.64,
+            "text": " Yes, and I replaced that with the, I think.",
+            "tokens": [
+                51514,
+                1079,
+                11,
+                293,
+                286,
+                10772,
+                300,
+                365,
+                264,
+                11,
+                286,
+                519,
+                13,
+                51614
+            ],
+            "temperature": 0.0,
+            "avg_logprob": -0.21236196899414062,
+            "compression_ratio": 1.6327272727272728,
+            "no_speech_prob": 0.027308763936161995,
+            "confidence": 0.931,
+            "words": [
+                {
+                    "text": "Yes,",
+                    "start": 77.64,
+                    "end": 77.8,
+                    "confidence": 0.693
+                },
+                {
+                    "text": "and",
+                    "start": 77.88,
+                    "end": 77.98,
+                    "confidence": 0.972
+                },
+                {
+                    "text": "I",
+                    "start": 77.98,
+                    "end": 78.32,
+                    "confidence": 0.996
+                },
+                {
+                    "text": "replaced",
+                    "start": 78.32,
+                    "end": 78.62,
+                    "confidence": 0.882
+                },
+                {
+                    "text": "that",
+                    "start": 78.62,
+                    "end": 79.0,
+                    "confidence": 0.996
+                },
+                {
+                    "text": "with",
+                    "start": 79.0,
+                    "end": 79.2,
+                    "confidence": 0.995
+                },
+                {
+                    "text": "the,",
+                    "start": 79.2,
+                    "end": 79.34,
+                    "confidence": 0.897
+                },
+                {
+                    "text": "I",
+                    "start": 79.38,
+                    "end": 79.48,
+                    "confidence": 0.995
+                },
+                {
+                    "text": "think.",
+                    "start": 79.48,
+                    "end": 79.64,
+                    "confidence": 1.0
+                }
+            ]
+        },
+        {
+            "id": 25,
+            "seek": 5500,
+            "start": 81.48,
+            "end": 81.5,
+            "text": " Yep.",
+            "tokens": [
+                51614,
+                7010,
+                13,
+                51664
+            ],
+            "temperature": 0.0,
+            "avg_logprob": -0.21236196899414062,
+            "compression_ratio": 1.6327272727272728,
+            "no_speech_prob": 0.027308763936161995,
+            "confidence": 0.418,
+            "words": [
+                {
+                    "text": "Yep.",
+                    "start": 81.48,
+                    "end": 81.5,
+                    "confidence": 0.418
+                }
+            ]
+        },
+        {
+            "id": 26,
+            "seek": 5500,
+            "start": 82.48,
+            "end": 82.5,
+            "text": " Okay.",
+            "tokens": [
+                51664,
+                1033,
+                13,
+                51714
+            ],
+            "temperature": 0.0,
+            "avg_logprob": -0.21236196899414062,
+            "compression_ratio": 1.6327272727272728,
+            "no_speech_prob": 0.027308763936161995,
+            "confidence": 0.39,
+            "words": [
+                {
+                    "text": "Okay.",
+                    "start": 82.48,
+                    "end": 82.5,
+                    "confidence": 0.39
+                }
+            ]
+        },
+        {
+            "id": 27,
+            "seek": 5500,
+            "start": 82.5,
+            "end": 82.6,
+            "text": " All right. Try that again.",
+            "tokens": [
+                51714,
+                1057,
+                558,
+                13,
+                6526,
+                300,
+                797,
+                13,
+                51814
+            ],
+            "temperature": 0.0,
+            "avg_logprob": -0.21236196899414062,
+            "compression_ratio": 1.6327272727272728,
+            "no_speech_prob": 0.027308763936161995,
+            "confidence": 0.806,
+            "words": [
+                {
+                    "text": "All",
+                    "start": 82.5,
+                    "end": 82.52,
+                    "confidence": 0.472
+                },
+                {
+                    "text": "right.",
+                    "start": 82.52,
+                    "end": 82.54,
+                    "confidence": 0.999
+                },
+                {
+                    "text": "Try",
+                    "start": 82.54,
+                    "end": 82.56,
+                    "confidence": 0.733
+                },
+                {
+                    "text": "that",
+                    "start": 82.56,
+                    "end": 82.58,
+                    "confidence": 0.988
+                },
+                {
+                    "text": "again.",
+                    "start": 82.58,
+                    "end": 82.6,
+                    "confidence": 0.997
+                }
+            ]
+        },
+        {
+            "id": 28,
+            "seek": 8400,
+            "start": 84.02,
+            "end": 87.76,
+            "text": " Now that we know how corporate sustainability evolved,",
+            "tokens": [
+                50364,
+                823,
+                300,
+                321,
+                458,
+                577,
+                10896,
+                16360,
+                14178,
+                11,
+                50564
+            ],
+            "temperature": 0.0,
+            "avg_logprob": -0.11890015778718172,
+            "compression_ratio": 1.7708333333333333,
+            "no_speech_prob": 0.002156764967367053,
+            "confidence": 0.845,
+            "words": [
+                {
+                    "text": "Now",
+                    "start": 84.02,
+                    "end": 84.64,
+                    "confidence": 0.279
+                },
+                {
+                    "text": "that",
+                    "start": 84.64,
+                    "end": 85.68,
+                    "confidence": 0.963
+                },
+                {
+                    "text": "we",
+                    "start": 85.68,
+                    "end": 85.82,
+                    "confidence": 0.998
+                },
+                {
+                    "text": "know",
+                    "start": 85.82,
+                    "end": 86.0,
+                    "confidence": 0.998
+                },
+                {
+                    "text": "how",
+                    "start": 86.0,
+                    "end": 86.22,
+                    "confidence": 0.996
+                },
+                {
+                    "text": "corporate",
+                    "start": 86.22,
+                    "end": 86.64,
+                    "confidence": 0.995
+                },
+                {
+                    "text": "sustainability",
+                    "start": 86.64,
+                    "end": 87.14,
+                    "confidence": 0.986
+                },
+                {
+                    "text": "evolved,",
+                    "start": 87.14,
+                    "end": 87.76,
+                    "confidence": 0.996
+                }
+            ]
+        },
+        {
+            "id": 29,
+            "seek": 8400,
+            "start": 88.5,
+            "end": 89.88,
+            "text": " let's look at why it's important.",
+            "tokens": [
+                50564,
+                718,
+                311,
+                574,
+                412,
+                983,
+                309,
+                311,
+                1021,
+                13,
+                50664
+            ],
+            "temperature": 0.0,
+            "avg_logprob": -0.11890015778718172,
+            "compression_ratio": 1.7708333333333333,
+            "no_speech_prob": 0.002156764967367053,
+            "confidence": 0.998,
+            "words": [
+                {
+                    "text": "let's",
+                    "start": 88.5,
+                    "end": 88.8,
+                    "confidence": 0.996
+                },
+                {
+                    "text": "look",
+                    "start": 88.8,
+                    "end": 88.94,
+                    "confidence": 0.999
+                },
+                {
+                    "text": "at",
+                    "start": 88.94,
+                    "end": 89.08,
+                    "confidence": 0.999
+                },
+                {
+                    "text": "why",
+                    "start": 89.08,
+                    "end": 89.36,
+                    "confidence": 0.999
+                },
+                {
+                    "text": "it's",
+                    "start": 89.36,
+                    "end": 89.58,
+                    "confidence": 0.999
+                },
+                {
+                    "text": "important.",
+                    "start": 89.58,
+                    "end": 89.88,
+                    "confidence": 1.0
+                }
+            ]
+        },
+        {
+            "id": 30,
+            "seek": 8400,
+            "start": 90.88,
+            "end": 94.14,
+            "text": " In this session, we will outline the high level importance of sustainability",
+            "tokens": [
+                50664,
+                682,
+                341,
+                5481,
+                11,
+                321,
+                486,
+                16387,
+                264,
+                1090,
+                1496,
+                7379,
+                295,
+                16360,
+                50864
+            ],
+            "temperature": 0.0,
+            "avg_logprob": -0.11890015778718172,
+            "compression_ratio": 1.7708333333333333,
+            "no_speech_prob": 0.002156764967367053,
+            "confidence": 0.993,
+            "words": [
+                {
+                    "text": "In",
+                    "start": 90.88,
+                    "end": 91.0,
+                    "confidence": 0.998
+                },
+                {
+                    "text": "this",
+                    "start": 91.0,
+                    "end": 91.18,
+                    "confidence": 0.999
+                },
+                {
+                    "text": "session,",
+                    "start": 91.18,
+                    "end": 91.46,
+                    "confidence": 0.996
+                },
+                {
+                    "text": "we",
+                    "start": 91.62,
+                    "end": 91.74,
+                    "confidence": 0.979
+                },
+                {
+                    "text": "will",
+                    "start": 91.74,
+                    "end": 91.88,
+                    "confidence": 0.998
+                },
+                {
+                    "text": "outline",
+                    "start": 91.88,
+                    "end": 92.28,
+                    "confidence": 0.998
+                },
+                {
+                    "text": "the",
+                    "start": 92.28,
+                    "end": 92.64,
+                    "confidence": 0.979
+                },
+                {
+                    "text": "high",
+                    "start": 92.64,
+                    "end": 92.92,
+                    "confidence": 0.998
+                },
+                {
+                    "text": "level",
+                    "start": 92.92,
+                    "end": 93.14,
+                    "confidence": 0.994
+                },
+                {
+                    "text": "importance",
+                    "start": 93.14,
+                    "end": 93.54,
+                    "confidence": 0.994
+                },
+                {
+                    "text": "of",
+                    "start": 93.54,
+                    "end": 93.82,
+                    "confidence": 0.982
+                },
+                {
+                    "text": "sustainability",
+                    "start": 93.82,
+                    "end": 94.14,
+                    "confidence": 0.999
+                }
+            ]
+        },
+        {
+            "id": 31,
+            "seek": 8400,
+            "start": 94.98,
+            "end": 99.66,
+            "text": " and examine why quantifying environmental, social, and governance impacts",
+            "tokens": [
+                50864,
+                293,
+                17496,
+                983,
+                4426,
+                5489,
+                8303,
+                11,
+                2093,
+                11,
+                293,
+                17449,
+                11606,
+                51164
+            ],
+            "temperature": 0.0,
+            "avg_logprob": -0.11890015778718172,
+            "compression_ratio": 1.7708333333333333,
+            "no_speech_prob": 0.002156764967367053,
+            "confidence": 0.993,
+            "words": [
+                {
+                    "text": "and",
+                    "start": 94.98,
+                    "end": 95.1,
+                    "confidence": 0.999
+                },
+                {
+                    "text": "examine",
+                    "start": 95.1,
+                    "end": 95.36,
+                    "confidence": 0.995
+                },
+                {
+                    "text": "why",
+                    "start": 95.36,
+                    "end": 95.76,
+                    "confidence": 0.995
+                },
+                {
+                    "text": "quantifying",
+                    "start": 95.76,
+                    "end": 96.84,
+                    "confidence": 0.997
+                },
+                {
+                    "text": "environmental,",
+                    "start": 96.84,
+                    "end": 97.52,
+                    "confidence": 0.971
+                },
+                {
+                    "text": "social,",
+                    "start": 97.76,
+                    "end": 98.24,
+                    "confidence": 0.99
+                },
+                {
+                    "text": "and",
+                    "start": 98.52,
+                    "end": 98.72,
+                    "confidence": 0.989
+                },
+                {
+                    "text": "governance",
+                    "start": 98.72,
+                    "end": 99.1,
+                    "confidence": 0.998
+                },
+                {
+                    "text": "impacts",
+                    "start": 99.1,
+                    "end": 99.66,
+                    "confidence": 0.996
+                }
+            ]
+        },
+        {
+            "id": 32,
+            "seek": 8400,
+            "start": 101.36,
+            "end": 102.52,
+            "text": " I really tried to hold it in.",
+            "tokens": [
+                51164,
+                286,
+                534,
+                3031,
+                281,
+                1797,
+                309,
+                294,
+                13,
+                51314
+            ],
+            "temperature": 0.0,
+            "avg_logprob": -0.11890015778718172,
+            "compression_ratio": 1.7708333333333333,
+            "no_speech_prob": 0.002156764967367053,
+            "confidence": 0.875,
+            "words": [
+                {
+                    "text": "I",
+                    "start": 101.36,
+                    "end": 101.4,
+                    "confidence": 0.522
+                },
+                {
+                    "text": "really",
+                    "start": 101.4,
+                    "end": 101.66,
+                    "confidence": 0.963
+                },
+                {
+                    "text": "tried",
+                    "start": 101.66,
+                    "end": 101.9,
+                    "confidence": 0.912
+                },
+                {
+                    "text": "to",
+                    "start": 101.9,
+                    "end": 102.06,
+                    "confidence": 0.942
+                },
+                {
+                    "text": "hold",
+                    "start": 102.06,
+                    "end": 102.2,
+                    "confidence": 0.952
+                },
+                {
+                    "text": "it",
+                    "start": 102.2,
+                    "end": 102.34,
+                    "confidence": 0.969
+                },
+                {
+                    "text": "in.",
+                    "start": 102.34,
+                    "end": 102.52,
+                    "confidence": 0.986
+                }
+            ]
+        },
+        {
+            "id": 33,
+            "seek": 8400,
+            "start": 105.0,
+            "end": 105.54,
+            "text": " It's all right.",
+            "tokens": [
+                51314,
+                467,
+                311,
+                439,
+                558,
+                13,
+                51464
+            ],
+            "temperature": 0.0,
+            "avg_logprob": -0.11890015778718172,
+            "compression_ratio": 1.7708333333333333,
+            "no_speech_prob": 0.002156764967367053,
+            "confidence": 0.789,
+            "words": [
+                {
+                    "text": "It's",
+                    "start": 105.0,
+                    "end": 105.12,
+                    "confidence": 0.65
+                },
+                {
+                    "text": "all",
+                    "start": 105.12,
+                    "end": 105.24,
+                    "confidence": 0.92
+                },
+                {
+                    "text": "right.",
+                    "start": 105.24,
+                    "end": 105.54,
+                    "confidence": 0.999
+                }
+            ]
+        },
+        {
+            "id": 34,
+            "seek": 8400,
+            "start": 106.22,
+            "end": 112.76,
+            "text": " Now that we know how corporate sustainability evolved,",
+            "tokens": [
+                51464,
+                823,
+                300,
+                321,
+                458,
+                577,
+                10896,
+                16360,
+                14178,
+                11,
+                51814
+            ],
+            "temperature": 0.0,
+            "avg_logprob": -0.11890015778718172,
+            "compression_ratio": 1.7708333333333333,
+            "no_speech_prob": 0.002156764967367053,
+            "confidence": 0.978,
+            "words": [
+                {
+                    "text": "Now",
+                    "start": 106.22,
+                    "end": 110.48,
+                    "confidence": 0.859
+                },
+                {
+                    "text": "that",
+                    "start": 110.48,
+                    "end": 110.6,
+                    "confidence": 0.993
+                },
+                {
+                    "text": "we",
+                    "start": 110.6,
+                    "end": 110.74,
+                    "confidence": 0.999
+                },
+                {
+                    "text": "know",
+                    "start": 110.74,
+                    "end": 110.94,
+                    "confidence": 0.999
+                },
+                {
+                    "text": "how",
+                    "start": 110.94,
+                    "end": 111.4,
+                    "confidence": 0.986
+                },
+                {
+                    "text": "corporate",
+                    "start": 111.4,
+                    "end": 111.7,
+                    "confidence": 0.998
+                },
+                {
+                    "text": "sustainability",
+                    "start": 111.7,
+                    "end": 112.14,
+                    "confidence": 0.999
+                },
+                {
+                    "text": "evolved,",
+                    "start": 112.14,
+                    "end": 112.76,
+                    "confidence": 0.998
+                }
+            ]
+        },
+        {
+            "id": 35,
+            "seek": 11300,
+            "start": 113.3,
+            "end": 114.62,
+            "text": " let's look at why it's important.",
+            "tokens": [
+                50364,
+                718,
+                311,
+                574,
+                412,
+                983,
+                309,
+                311,
+                1021,
+                13,
+                50464
+            ],
+            "temperature": 0.0,
+            "avg_logprob": -0.05567490259806315,
+            "compression_ratio": 1.5402298850574712,
+            "no_speech_prob": 0.013295002281665802,
+            "confidence": 0.983,
+            "words": [
+                {
+                    "text": "let's",
+                    "start": 113.3,
+                    "end": 113.54,
+                    "confidence": 0.956
+                },
+                {
+                    "text": "look",
+                    "start": 113.54,
+                    "end": 113.66,
+                    "confidence": 0.981
+                },
+                {
+                    "text": "at",
+                    "start": 113.66,
+                    "end": 113.78,
+                    "confidence": 0.998
+                },
+                {
+                    "text": "why",
+                    "start": 113.78,
+                    "end": 114.02,
+                    "confidence": 0.986
+                },
+                {
+                    "text": "it's",
+                    "start": 114.02,
+                    "end": 114.24,
+                    "confidence": 0.996
+                },
+                {
+                    "text": "important.",
+                    "start": 114.24,
+                    "end": 114.62,
+                    "confidence": 0.999
+                }
+            ]
+        },
+        {
+            "id": 36,
+            "seek": 11300,
+            "start": 115.42,
+            "end": 119.5,
+            "text": " In this session, we will outline the high level importance of sustainability",
+            "tokens": [
+                50464,
+                682,
+                341,
+                5481,
+                11,
+                321,
+                486,
+                16387,
+                264,
+                1090,
+                1496,
+                7379,
+                295,
+                16360,
+                50714
+            ],
+            "temperature": 0.0,
+            "avg_logprob": -0.05567490259806315,
+            "compression_ratio": 1.5402298850574712,
+            "no_speech_prob": 0.013295002281665802,
+            "confidence": 0.989,
+            "words": [
+                {
+                    "text": "In",
+                    "start": 115.42,
+                    "end": 115.56,
+                    "confidence": 0.993
+                },
+                {
+                    "text": "this",
+                    "start": 115.56,
+                    "end": 115.74,
+                    "confidence": 0.998
+                },
+                {
+                    "text": "session,",
+                    "start": 115.74,
+                    "end": 116.04,
+                    "confidence": 0.997
+                },
+                {
+                    "text": "we",
+                    "start": 116.3,
+                    "end": 116.38,
+                    "confidence": 0.976
+                },
+                {
+                    "text": "will",
+                    "start": 116.38,
+                    "end": 116.52,
+                    "confidence": 0.997
+                },
+                {
+                    "text": "outline",
+                    "start": 116.52,
+                    "end": 117.0,
+                    "confidence": 0.996
+                },
+                {
+                    "text": "the",
+                    "start": 117.0,
+                    "end": 117.32,
+                    "confidence": 0.988
+                },
+                {
+                    "text": "high",
+                    "start": 117.32,
+                    "end": 117.6,
+                    "confidence": 0.998
+                },
+                {
+                    "text": "level",
+                    "start": 117.6,
+                    "end": 117.8,
+                    "confidence": 0.991
+                },
+                {
+                    "text": "importance",
+                    "start": 117.8,
+                    "end": 118.26,
+                    "confidence": 0.992
+                },
+                {
+                    "text": "of",
+                    "start": 118.26,
+                    "end": 118.9,
+                    "confidence": 0.946
+                },
+                {
+                    "text": "sustainability",
+                    "start": 118.9,
+                    "end": 119.5,
+                    "confidence": 0.998
+                }
+            ]
+        },
+        {
+            "id": 37,
+            "seek": 11300,
+            "start": 120.08,
+            "end": 125.08,
+            "text": " and examine why quantifying environmental, social, and governance impacts",
+            "tokens": [
+                50714,
+                293,
+                17496,
+                983,
+                4426,
+                5489,
+                8303,
+                11,
+                2093,
+                11,
+                293,
+                17449,
+                11606,
+                50964
+            ],
+            "temperature": 0.0,
+            "avg_logprob": -0.05567490259806315,
+            "compression_ratio": 1.5402298850574712,
+            "no_speech_prob": 0.013295002281665802,
+            "confidence": 0.981,
+            "words": [
+                {
+                    "text": "and",
+                    "start": 120.08,
+                    "end": 120.22,
+                    "confidence": 0.995
+                },
+                {
+                    "text": "examine",
+                    "start": 120.22,
+                    "end": 120.48,
+                    "confidence": 0.992
+                },
+                {
+                    "text": "why",
+                    "start": 120.48,
+                    "end": 120.82,
+                    "confidence": 0.997
+                },
+                {
+                    "text": "quantifying",
+                    "start": 120.82,
+                    "end": 121.86,
+                    "confidence": 0.998
+                },
+                {
+                    "text": "environmental,",
+                    "start": 121.86,
+                    "end": 122.78,
+                    "confidence": 0.963
+                },
+                {
+                    "text": "social,",
+                    "start": 123.0,
+                    "end": 123.56,
+                    "confidence": 0.983
+                },
+                {
+                    "text": "and",
+                    "start": 124.0,
+                    "end": 124.1,
+                    "confidence": 0.957
+                },
+                {
+                    "text": "governance",
+                    "start": 124.1,
+                    "end": 124.5,
+                    "confidence": 0.997
+                },
+                {
+                    "text": "impacts",
+                    "start": 124.5,
+                    "end": 125.08,
+                    "confidence": 0.932
+                }
+            ]
+        },
+        {
+            "id": 38,
+            "seek": 11300,
+            "start": 125.32,
+            "end": 130.74,
+            "text": " creates value and helps communicate that value to shareholders and other stakeholders.",
+            "tokens": [
+                50964,
+                7829,
+                2158,
+                293,
+                3665,
+                7890,
+                300,
+                2158,
+                281,
+                33294,
+                293,
+                661,
+                17779,
+                13,
+                51314
+            ],
+            "temperature": 0.0,
+            "avg_logprob": -0.05567490259806315,
+            "compression_ratio": 1.5402298850574712,
+            "no_speech_prob": 0.013295002281665802,
+            "confidence": 0.982,
+            "words": [
+                {
+                    "text": "creates",
+                    "start": 125.32,
+                    "end": 125.66,
+                    "confidence": 0.995
+                },
+                {
+                    "text": "value",
+                    "start": 125.66,
+                    "end": 126.18,
+                    "confidence": 0.998
+                },
+                {
+                    "text": "and",
+                    "start": 126.18,
+                    "end": 126.74,
+                    "confidence": 0.973
+                },
+                {
+                    "text": "helps",
+                    "start": 126.74,
+                    "end": 126.92,
+                    "confidence": 0.997
+                },
+                {
+                    "text": "communicate",
+                    "start": 126.92,
+                    "end": 127.42,
+                    "confidence": 0.992
+                },
+                {
+                    "text": "that",
+                    "start": 127.42,
+                    "end": 127.88,
+                    "confidence": 0.989
+                },
+                {
+                    "text": "value",
+                    "start": 127.88,
+                    "end": 128.32,
+                    "confidence": 0.998
+                },
+                {
+                    "text": "to",
+                    "start": 128.32,
+                    "end": 128.9,
+                    "confidence": 0.926
+                },
+                {
+                    "text": "shareholders",
+                    "start": 128.9,
+                    "end": 129.42,
+                    "confidence": 0.987
+                },
+                {
+                    "text": "and",
+                    "start": 129.42,
+                    "end": 129.94,
+                    "confidence": 0.957
+                },
+                {
+                    "text": "other",
+                    "start": 129.94,
+                    "end": 130.22,
+                    "confidence": 0.975
+                },
+                {
+                    "text": "stakeholders.",
+                    "start": 130.22,
+                    "end": 130.74,
+                    "confidence": 0.996
+                }
+            ]
+        },
+        {
+            "id": 39,
+            "seek": 11300,
+            "start": 132.1,
+            "end": 136.3,
+            "text": " As Chris Laszlo highlights in his 2011 book, Embedded Sustainability,",
+            "tokens": [
+                51314,
+                1018,
+                6688,
+                10663,
+                89,
+                752,
+                14254,
+                294,
+                702,
+                10154,
+                1446,
+                11,
+                24234,
+                292,
+                9207,
+                34407,
+                2310,
+                11,
+                51564
+            ],
+            "temperature": 0.0,
+            "avg_logprob": -0.05567490259806315,
+            "compression_ratio": 1.5402298850574712,
+            "no_speech_prob": 0.013295002281665802,
+            "confidence": 0.93,
+            "words": [
+                {
+                    "text": "As",
+                    "start": 132.1,
+                    "end": 132.28,
+                    "confidence": 0.992
+                },
+                {
+                    "text": "Chris",
+                    "start": 132.28,
+                    "end": 132.52,
+                    "confidence": 0.962
+                },
+                {
+                    "text": "Laszlo",
+                    "start": 132.52,
+                    "end": 133.04,
+                    "confidence": 0.875
+                },
+                {
+                    "text": "highlights",
+                    "start": 133.04,
+                    "end": 133.4,
+                    "confidence": 0.931
+                },
+                {
+                    "text": "in",
+                    "start": 133.4,
+                    "end": 133.68,
+                    "confidence": 0.982
+                },
+                {
+                    "text": "his",
+                    "start": 133.68,
+                    "end": 133.8,
+                    "confidence": 0.981
+                },
+                {
+                    "text": "2011",
+                    "start": 133.8,
+                    "end": 134.34,
+                    "confidence": 0.997
+                },
+                {
+                    "text": "book,",
+                    "start": 134.34,
+                    "end": 134.84,
+                    "confidence": 0.997
+                },
+                {
+                    "text": "Embedded",
+                    "start": 135.02,
+                    "end": 135.64,
+                    "confidence": 0.843
+                },
+                {
+                    "text": "Sustainability,",
+                    "start": 135.64,
+                    "end": 136.3,
+                    "confidence": 0.991
+                }
+            ]
+        },
+        {
+            "id": 40,
+            "seek": 11300,
+            "start": 137.12,
+            "end": 140.68,
+            "text": " three global trends redefined business for the 21st century.",
+            "tokens": [
+                51564,
+                1045,
+                4338,
+                13892,
+                38818,
+                2001,
+                1606,
+                337,
+                264,
+                5080,
+                372,
+                4901,
+                13,
+                51764
+            ],
+            "temperature": 0.0,
+            "avg_logprob": -0.05567490259806315,
+            "compression_ratio": 1.5402298850574712,
+            "no_speech_prob": 0.013295002281665802,
+            "confidence": 0.917,
+            "words": [
+                {
+                    "text": "three",
+                    "start": 137.12,
+                    "end": 137.38,
+                    "confidence": 0.789
+                },
+                {
+                    "text": "global",
+                    "start": 137.38,
+                    "end": 137.74,
+                    "confidence": 0.995
+                },
+                {
+                    "text": "trends",
+                    "start": 137.74,
+                    "end": 138.22,
+                    "confidence": 0.999
+                },
+                {
+                    "text": "redefined",
+                    "start": 138.22,
+                    "end": 139.14,
+                    "confidence": 0.74
+                },
+                {
+                    "text": "business",
+                    "start": 139.14,
+                    "end": 139.46,
+                    "confidence": 0.998
+                },
+                {
+                    "text": "for",
+                    "start": 139.46,
+                    "end": 139.72,
+                    "confidence": 0.991
+                },
+                {
+                    "text": "the",
+                    "start": 139.72,
+                    "end": 139.82,
+                    "confidence": 0.999
+                },
+                {
+                    "text": "21st",
+                    "start": 139.82,
+                    "end": 140.34,
+                    "confidence": 0.991
+                },
+                {
+                    "text": "century.",
+                    "start": 140.34,
+                    "end": 140.68,
+                    "confidence": 0.923
+                }
+            ]
+        },
+        {
+            "id": 41,
+            "seek": 14100,
+            "start": 141.6,
+            "end": 145.88,
+            "text": " Declining resources, that is, they're more difficult and expensive to extract.",
+            "tokens": [
+                50364,
+                1346,
+                3474,
+                1760,
+                3593,
+                11,
+                300,
+                307,
+                11,
+                436,
+                434,
+                544,
+                2252,
+                293,
+                5124,
+                281,
+                8947,
+                13,
+                50614
+            ],
+            "temperature": 0.0,
+            "avg_logprob": -0.07438383875666438,
+            "compression_ratio": 1.5308056872037914,
+            "no_speech_prob": 0.004847174044698477,
+            "confidence": 0.974,
+            "words": [
+                {
+                    "text": "Declining",
+                    "start": 141.6,
+                    "end": 142.06,
+                    "confidence": 0.949
+                },
+                {
+                    "text": "resources,",
+                    "start": 142.06,
+                    "end": 142.52,
+                    "confidence": 0.986
+                },
+                {
+                    "text": "that",
+                    "start": 143.14,
+                    "end": 143.3,
+                    "confidence": 0.969
+                },
+                {
+                    "text": "is,",
+                    "start": 143.3,
+                    "end": 143.52,
+                    "confidence": 0.999
+                },
+                {
+                    "text": "they're",
+                    "start": 143.82,
+                    "end": 144.0,
+                    "confidence": 0.934
+                },
+                {
+                    "text": "more",
+                    "start": 144.0,
+                    "end": 144.16,
+                    "confidence": 0.998
+                },
+                {
+                    "text": "difficult",
+                    "start": 144.16,
+                    "end": 144.56,
+                    "confidence": 0.999
+                },
+                {
+                    "text": "and",
+                    "start": 144.56,
+                    "end": 144.86,
+                    "confidence": 0.986
+                },
+                {
+                    "text": "expensive",
+                    "start": 144.86,
+                    "end": 145.24,
+                    "confidence": 0.996
+                },
+                {
+                    "text": "to",
+                    "start": 145.24,
+                    "end": 145.54,
+                    "confidence": 0.992
+                },
+                {
+                    "text": "extract.",
+                    "start": 145.54,
+                    "end": 145.88,
+                    "confidence": 0.995
+                }
+            ]
+        },
+        {
+            "id": 42,
+            "seek": 14100,
+            "start": 146.84,
+            "end": 151.24,
+            "text": " Radical transparency, for example, bad news goes viral in minutes,",
+            "tokens": [
+                50614,
+                9654,
+                804,
+                17131,
+                11,
+                337,
+                1365,
+                11,
+                1578,
+                2583,
+                1709,
+                16132,
+                294,
+                2077,
+                11,
+                50864
+            ],
+            "temperature": 0.0,
+            "avg_logprob": -0.07438383875666438,
+            "compression_ratio": 1.5308056872037914,
+            "no_speech_prob": 0.004847174044698477,
+            "confidence": 0.98,
+            "words": [
+                {
+                    "text": "Radical",
+                    "start": 146.84,
+                    "end": 147.38,
+                    "confidence": 0.962
+                },
+                {
+                    "text": "transparency,",
+                    "start": 147.38,
+                    "end": 148.04,
+                    "confidence": 0.994
+                },
+                {
+                    "text": "for",
+                    "start": 149.04,
+                    "end": 149.16,
+                    "confidence": 0.991
+                },
+                {
+                    "text": "example,",
+                    "start": 149.16,
+                    "end": 149.42,
+                    "confidence": 1.0
+                },
+                {
+                    "text": "bad",
+                    "start": 149.54,
+                    "end": 149.74,
+                    "confidence": 0.944
+                },
+                {
+                    "text": "news",
+                    "start": 149.74,
+                    "end": 150.0,
+                    "confidence": 1.0
+                },
+                {
+                    "text": "goes",
+                    "start": 150.0,
+                    "end": 150.24,
+                    "confidence": 0.943
+                },
+                {
+                    "text": "viral",
+                    "start": 150.24,
+                    "end": 150.58,
+                    "confidence": 0.999
+                },
+                {
+                    "text": "in",
+                    "start": 150.58,
+                    "end": 150.92,
+                    "confidence": 0.985
+                },
+                {
+                    "text": "minutes,",
+                    "start": 150.92,
+                    "end": 151.24,
+                    "confidence": 0.999
+                }
+            ]
+        },
+        {
+            "id": 43,
+            "seek": 14100,
+            "start": 152.12,
+            "end": 153.82,
+            "text": " and increasing stakeholder expectations.",
+            "tokens": [
+                50864,
+                293,
+                5662,
+                43406,
+                9843,
+                13,
+                51014
+            ],
+            "temperature": 0.0,
+            "avg_logprob": -0.07438383875666438,
+            "compression_ratio": 1.5308056872037914,
+            "no_speech_prob": 0.004847174044698477,
+            "confidence": 0.991,
+            "words": [
+                {
+                    "text": "and",
+                    "start": 152.12,
+                    "end": 152.3,
+                    "confidence": 0.973
+                },
+                {
+                    "text": "increasing",
+                    "start": 152.3,
+                    "end": 152.76,
+                    "confidence": 0.997
+                },
+                {
+                    "text": "stakeholder",
+                    "start": 152.76,
+                    "end": 153.32,
+                    "confidence": 0.995
+                },
+                {
+                    "text": "expectations.",
+                    "start": 153.32,
+                    "end": 153.82,
+                    "confidence": 0.997
+                }
+            ]
+        },
+        {
+            "id": 44,
+            "seek": 14100,
+            "start": 155.0,
+            "end": 161.66,
+            "text": " Customers, employees, investors, stockholders, governments, and communities all expect more.",
+            "tokens": [
+                51014,
+                16649,
+                433,
+                11,
+                6619,
+                11,
+                11519,
+                11,
+                4127,
+                12916,
+                11,
+                11280,
+                11,
+                293,
+                4456,
+                439,
+                2066,
+                544,
+                13,
+                51414
+            ],
+            "temperature": 0.0,
+            "avg_logprob": -0.07438383875666438,
+            "compression_ratio": 1.5308056872037914,
+            "no_speech_prob": 0.004847174044698477,
+            "confidence": 0.936,
+            "words": [
+                {
+                    "text": "Customers,",
+                    "start": 155.0,
+                    "end": 155.54,
+                    "confidence": 0.993
+                },
+                {
+                    "text": "employees,",
+                    "start": 155.66,
+                    "end": 156.16,
+                    "confidence": 0.999
+                },
+                {
+                    "text": "investors,",
+                    "start": 156.62,
+                    "end": 157.1,
+                    "confidence": 0.999
+                },
+                {
+                    "text": "stockholders,",
+                    "start": 157.46,
+                    "end": 158.02,
+                    "confidence": 0.969
+                },
+                {
+                    "text": "governments,",
+                    "start": 158.3,
+                    "end": 158.8,
+                    "confidence": 0.969
+                },
+                {
+                    "text": "and",
+                    "start": 159.06,
+                    "end": 159.54,
+                    "confidence": 0.825
+                },
+                {
+                    "text": "communities",
+                    "start": 159.54,
+                    "end": 160.02,
+                    "confidence": 0.991
+                },
+                {
+                    "text": "all",
+                    "start": 160.02,
+                    "end": 160.7,
+                    "confidence": 0.62
+                },
+                {
+                    "text": "expect",
+                    "start": 160.7,
+                    "end": 161.12,
+                    "confidence": 0.993
+                },
+                {
+                    "text": "more.",
+                    "start": 161.12,
+                    "end": 161.66,
+                    "confidence": 0.999
+                }
+            ]
+        },
+        {
+            "id": 45,
+            "seek": 14100,
+            "start": 163.22,
+            "end": 165.86,
+            "text": " These trends reshape how companies compete.",
+            "tokens": [
+                51414,
+                1981,
+                13892,
+                725,
+                42406,
+                577,
+                3431,
+                11831,
+                13,
+                51614
+            ],
+            "temperature": 0.0,
+            "avg_logprob": -0.07438383875666438,
+            "compression_ratio": 1.5308056872037914,
+            "no_speech_prob": 0.004847174044698477,
+            "confidence": 0.995,
+            "words": [
+                {
+                    "text": "These",
+                    "start": 163.22,
+                    "end": 163.46,
+                    "confidence": 0.994
+                },
+                {
+                    "text": "trends",
+                    "start": 163.46,
+                    "end": 163.86,
+                    "confidence": 0.999
+                },
+                {
+                    "text": "reshape",
+                    "start": 163.86,
+                    "end": 164.64,
+                    "confidence": 0.987
+                },
+                {
+                    "text": "how",
+                    "start": 164.64,
+                    "end": 165.06,
+                    "confidence": 0.999
+                },
+                {
+                    "text": "companies",
+                    "start": 165.06,
+                    "end": 165.44,
+                    "confidence": 0.999
+                },
+                {
+                    "text": "compete.",
+                    "start": 165.44,
+                    "end": 165.86,
+                    "confidence": 0.998
+                }
+            ]
+        },
+        {
+            "id": 46,
+            "seek": 16600,
+            "start": 167.1,
+            "end": 171.94,
+            "text": " Companies that embed whole systems thinking into core strategy minimize risks,",
+            "tokens": [
+                50364,
+                44031,
+                300,
+                12240,
+                1379,
+                3652,
+                1953,
+                666,
+                4965,
+                5206,
+                17522,
+                10888,
+                11,
+                50664
+            ],
+            "temperature": 0.0,
+            "avg_logprob": -0.07277094478338537,
+            "compression_ratio": 1.5982532751091703,
+            "no_speech_prob": 0.009035523980855942,
+            "confidence": 0.906,
+            "words": [
+                {
+                    "text": "Companies",
+                    "start": 167.1,
+                    "end": 167.38,
+                    "confidence": 0.984
+                },
+                {
+                    "text": "that",
+                    "start": 167.38,
+                    "end": 167.68,
+                    "confidence": 0.997
+                },
+                {
+                    "text": "embed",
+                    "start": 167.68,
+                    "end": 167.98,
+                    "confidence": 0.994
+                },
+                {
+                    "text": "whole",
+                    "start": 167.98,
+                    "end": 168.5,
+                    "confidence": 0.986
+                },
+                {
+                    "text": "systems",
+                    "start": 168.5,
+                    "end": 168.86,
+                    "confidence": 0.938
+                },
+                {
+                    "text": "thinking",
+                    "start": 168.86,
+                    "end": 169.3,
+                    "confidence": 0.874
+                },
+                {
+                    "text": "into",
+                    "start": 169.3,
+                    "end": 169.7,
+                    "confidence": 0.978
+                },
+                {
+                    "text": "core",
+                    "start": 169.7,
+                    "end": 170.0,
+                    "confidence": 0.976
+                },
+                {
+                    "text": "strategy",
+                    "start": 170.0,
+                    "end": 170.52,
+                    "confidence": 0.99
+                },
+                {
+                    "text": "minimize",
+                    "start": 170.52,
+                    "end": 171.38,
+                    "confidence": 0.46
+                },
+                {
+                    "text": "risks,",
+                    "start": 171.38,
+                    "end": 171.94,
+                    "confidence": 0.982
+                }
+            ]
+        },
+        {
+            "id": 47,
+            "seek": 16600,
+            "start": 172.32,
+            "end": 176.88,
+            "text": " protect assets, enhance social acceptance, and increase profits.",
+            "tokens": [
+                50664,
+                2371,
+                9769,
+                11,
+                11985,
+                2093,
+                20351,
+                11,
+                293,
+                3488,
+                17982,
+                13,
+                50914
+            ],
+            "temperature": 0.0,
+            "avg_logprob": -0.07277094478338537,
+            "compression_ratio": 1.5982532751091703,
+            "no_speech_prob": 0.009035523980855942,
+            "confidence": 0.992,
+            "words": [
+                {
+                    "text": "protect",
+                    "start": 172.32,
+                    "end": 172.68,
+                    "confidence": 0.997
+                },
+                {
+                    "text": "assets,",
+                    "start": 172.68,
+                    "end": 173.3,
+                    "confidence": 0.999
+                },
+                {
+                    "text": "enhance",
+                    "start": 173.68,
+                    "end": 174.12,
+                    "confidence": 0.992
+                },
+                {
+                    "text": "social",
+                    "start": 174.12,
+                    "end": 174.58,
+                    "confidence": 0.998
+                },
+                {
+                    "text": "acceptance,",
+                    "start": 174.58,
+                    "end": 175.02,
+                    "confidence": 0.996
+                },
+                {
+                    "text": "and",
+                    "start": 175.38,
+                    "end": 175.7,
+                    "confidence": 0.974
+                },
+                {
+                    "text": "increase",
+                    "start": 175.7,
+                    "end": 176.32,
+                    "confidence": 0.982
+                },
+                {
+                    "text": "profits.",
+                    "start": 176.32,
+                    "end": 176.88,
+                    "confidence": 0.998
+                }
+            ]
+        },
+        {
+            "id": 48,
+            "seek": 16600,
+            "start": 177.66,
+            "end": 181.82,
+            "text": " Sustainability empowers people to optimize individual functions",
+            "tokens": [
+                50914,
+                34407,
+                2310,
+                4012,
+                23054,
+                561,
+                281,
+                19719,
+                2609,
+                6828,
+                51164
+            ],
+            "temperature": 0.0,
+            "avg_logprob": -0.07277094478338537,
+            "compression_ratio": 1.5982532751091703,
+            "no_speech_prob": 0.009035523980855942,
+            "confidence": 0.995,
+            "words": [
+                {
+                    "text": "Sustainability",
+                    "start": 177.66,
+                    "end": 178.44,
+                    "confidence": 0.996
+                },
+                {
+                    "text": "empowers",
+                    "start": 178.44,
+                    "end": 179.18,
+                    "confidence": 0.994
+                },
+                {
+                    "text": "people",
+                    "start": 179.18,
+                    "end": 179.56,
+                    "confidence": 0.999
+                },
+                {
+                    "text": "to",
+                    "start": 179.56,
+                    "end": 179.98,
+                    "confidence": 0.997
+                },
+                {
+                    "text": "optimize",
+                    "start": 179.98,
+                    "end": 180.52,
+                    "confidence": 0.994
+                },
+                {
+                    "text": "individual",
+                    "start": 180.52,
+                    "end": 181.3,
+                    "confidence": 0.993
+                },
+                {
+                    "text": "functions",
+                    "start": 181.3,
+                    "end": 181.82,
+                    "confidence": 0.997
+                }
+            ]
+        },
+        {
+            "id": 49,
+            "seek": 16600,
+            "start": 182.26,
+            "end": 185.2,
+            "text": " and align them throughout an entire enterprise,",
+            "tokens": [
+                51164,
+                293,
+                7975,
+                552,
+                3710,
+                364,
+                2302,
+                14132,
+                11,
+                51314
+            ],
+            "temperature": 0.0,
+            "avg_logprob": -0.07277094478338537,
+            "compression_ratio": 1.5982532751091703,
+            "no_speech_prob": 0.009035523980855942,
+            "confidence": 0.995,
+            "words": [
+                {
+                    "text": "and",
+                    "start": 182.26,
+                    "end": 182.5,
+                    "confidence": 0.999
+                },
+                {
+                    "text": "align",
+                    "start": 182.5,
+                    "end": 182.86,
+                    "confidence": 0.99
+                },
+                {
+                    "text": "them",
+                    "start": 182.86,
+                    "end": 183.2,
+                    "confidence": 0.999
+                },
+                {
+                    "text": "throughout",
+                    "start": 183.2,
+                    "end": 183.88,
+                    "confidence": 0.993
+                },
+                {
+                    "text": "an",
+                    "start": 183.88,
+                    "end": 184.18,
+                    "confidence": 0.989
+                },
+                {
+                    "text": "entire",
+                    "start": 184.18,
+                    "end": 184.76,
+                    "confidence": 0.999
+                },
+                {
+                    "text": "enterprise,",
+                    "start": 184.76,
+                    "end": 185.2,
+                    "confidence": 0.999
+                }
+            ]
+        },
+        {
+            "id": 50,
+            "seek": 16600,
+            "start": 185.78,
+            "end": 189.64,
+            "text": " from sourcing to engineering to procurement, environmental management,",
+            "tokens": [
+                51314,
+                490,
+                11006,
+                2175,
+                281,
+                7043,
+                281,
+                35183,
+                11,
+                8303,
+                4592,
+                11,
+                51564
+            ],
+            "temperature": 0.0,
+            "avg_logprob": -0.07277094478338537,
+            "compression_ratio": 1.5982532751091703,
+            "no_speech_prob": 0.009035523980855942,
+            "confidence": 0.947,
+            "words": [
+                {
+                    "text": "from",
+                    "start": 185.78,
+                    "end": 185.98,
+                    "confidence": 0.997
+                },
+                {
+                    "text": "sourcing",
+                    "start": 185.98,
+                    "end": 186.58,
+                    "confidence": 1.0
+                },
+                {
+                    "text": "to",
+                    "start": 186.58,
+                    "end": 186.8,
+                    "confidence": 0.952
+                },
+                {
+                    "text": "engineering",
+                    "start": 186.8,
+                    "end": 187.26,
+                    "confidence": 0.999
+                },
+                {
+                    "text": "to",
+                    "start": 187.26,
+                    "end": 187.76,
+                    "confidence": 0.756
+                },
+                {
+                    "text": "procurement,",
+                    "start": 187.76,
+                    "end": 188.26,
+                    "confidence": 0.993
+                },
+                {
+                    "text": "environmental",
+                    "start": 188.64,
+                    "end": 189.14,
+                    "confidence": 0.86
+                },
+                {
+                    "text": "management,",
+                    "start": 189.14,
+                    "end": 189.64,
+                    "confidence": 0.998
+                }
+            ]
+        },
+        {
+            "id": 51,
+            "seek": 16600,
+            "start": 190.02,
+            "end": 191.5,
+            "text": " and government and community relations.",
+            "tokens": [
+                51564,
+                293,
+                2463,
+                293,
+                1768,
+                2299,
+                13,
+                51664
+            ],
+            "temperature": 0.0,
+            "avg_logprob": -0.07277094478338537,
+            "compression_ratio": 1.5982532751091703,
+            "no_speech_prob": 0.009035523980855942,
+            "confidence": 0.972,
+            "words": [
+                {
+                    "text": "and",
+                    "start": 190.02,
+                    "end": 190.2,
+                    "confidence": 0.983
+                },
+                {
+                    "text": "government",
+                    "start": 190.2,
+                    "end": 190.5,
+                    "confidence": 0.995
+                },
+                {
+                    "text": "and",
+                    "start": 190.5,
+                    "end": 190.8,
+                    "confidence": 0.89
+                },
+                {
+                    "text": "community",
+                    "start": 190.8,
+                    "end": 191.08,
+                    "confidence": 0.998
+                },
+                {
+                    "text": "relations.",
+                    "start": 191.08,
+                    "end": 191.5,
+                    "confidence": 0.998
+                }
+            ]
+        },
+        {
+            "id": 52,
+            "seek": 19200,
+            "start": 192.74,
+            "end": 196.66,
+            "text": " Environmental, social, and governance factors represent a shift.",
+            "tokens": [
+                50364,
+                27813,
+                11,
+                2093,
+                11,
+                293,
+                17449,
+                6771,
+                2906,
+                257,
+                5513,
+                13,
+                50614
+            ],
+            "temperature": 0.0,
+            "avg_logprob": -0.1905393351679263,
+            "compression_ratio": 1.7457627118644068,
+            "no_speech_prob": 0.05352773144841194,
+            "confidence": 0.997,
+            "words": [
+                {
+                    "text": "Environmental,",
+                    "start": 192.74,
+                    "end": 193.3,
+                    "confidence": 0.995
+                },
+                {
+                    "text": "social,",
+                    "start": 193.5,
+                    "end": 193.9,
+                    "confidence": 0.999
+                },
+                {
+                    "text": "and",
+                    "start": 194.14,
+                    "end": 194.24,
+                    "confidence": 0.999
+                },
+                {
+                    "text": "governance",
+                    "start": 194.24,
+                    "end": 194.58,
+                    "confidence": 0.994
+                },
+                {
+                    "text": "factors",
+                    "start": 194.58,
+                    "end": 195.1,
+                    "confidence": 0.999
+                },
+                {
+                    "text": "represent",
+                    "start": 195.1,
+                    "end": 195.9,
+                    "confidence": 0.995
+                },
+                {
+                    "text": "a",
+                    "start": 195.9,
+                    "end": 196.3,
+                    "confidence": 0.998
+                },
+                {
+                    "text": "shift.",
+                    "start": 196.3,
+                    "end": 196.66,
+                    "confidence": 0.999
+                }
+            ]
+        },
+        {
+            "id": 53,
+            "seek": 19200,
+            "start": 197.66,
+            "end": 198.4,
+            "text": " Corporate governance.",
+            "tokens": [
+                50614,
+                19665,
+                473,
+                17449,
+                13,
+                50714
+            ],
+            "temperature": 0.0,
+            "avg_logprob": -0.1905393351679263,
+            "compression_ratio": 1.7457627118644068,
+            "no_speech_prob": 0.05352773144841194,
+            "confidence": 0.448,
+            "words": [
+                {
+                    "text": "Corporate",
+                    "start": 197.66,
+                    "end": 198.18,
+                    "confidence": 0.688
+                },
+                {
+                    "text": "governance.",
+                    "start": 198.18,
+                    "end": 198.4,
+                    "confidence": 0.19
+                }
+            ]
+        },
+        {
+            "id": 54,
+            "seek": 19200,
+            "start": 198.5,
+            "end": 199.5,
+            "text": " Okay.",
+            "tokens": [
+                50714,
+                1033,
+                13,
+                50814
+            ],
+            "temperature": 0.0,
+            "avg_logprob": -0.1905393351679263,
+            "compression_ratio": 1.7457627118644068,
+            "no_speech_prob": 0.05352773144841194,
+            "confidence": 0.754,
+            "words": [
+                {
+                    "text": "Okay.",
+                    "start": 198.5,
+                    "end": 199.5,
+                    "confidence": 0.754
+                }
+            ]
+        },
+        {
+            "id": 55,
+            "seek": 19200,
+            "start": 201.94,
+            "end": 203.94,
+            "text": " That's a real positive picture.",
+            "tokens": [
+                50814,
+                663,
+                311,
+                257,
+                957,
+                3353,
+                3036,
+                13,
+                50964
+            ],
+            "temperature": 0.0,
+            "avg_logprob": -0.1905393351679263,
+            "compression_ratio": 1.7457627118644068,
+            "no_speech_prob": 0.05352773144841194,
+            "confidence": 0.461,
+            "words": [
+                {
+                    "text": "That's",
+                    "start": 201.94,
+                    "end": 202.22,
+                    "confidence": 0.678
+                },
+                {
+                    "text": "a",
+                    "start": 202.22,
+                    "end": 202.3,
+                    "confidence": 0.424
+                },
+                {
+                    "text": "real",
+                    "start": 202.3,
+                    "end": 203.0,
+                    "confidence": 0.763
+                },
+                {
+                    "text": "positive",
+                    "start": 203.0,
+                    "end": 203.64,
+                    "confidence": 0.712
+                },
+                {
+                    "text": "picture.",
+                    "start": 203.64,
+                    "end": 203.94,
+                    "confidence": 0.091
+                }
+            ]
+        },
+        {
+            "id": 56,
+            "seek": 19200,
+            "start": 204.42,
+            "end": 208.8,
+            "text": " Just looking at that, do you mean to say that environmental, social, and corporate governance?",
+            "tokens": [
+                50964,
+                1449,
+                1237,
+                412,
+                300,
+                11,
+                360,
+                291,
+                914,
+                281,
+                584,
+                300,
+                8303,
+                11,
+                2093,
+                11,
+                293,
+                10896,
+                17449,
+                30,
+                51214
+            ],
+            "temperature": 0.0,
+            "avg_logprob": -0.1905393351679263,
+            "compression_ratio": 1.7457627118644068,
+            "no_speech_prob": 0.05352773144841194,
+            "confidence": 0.913,
+            "words": [
+                {
+                    "text": "Just",
+                    "start": 204.42,
+                    "end": 205.32,
+                    "confidence": 0.535
+                },
+                {
+                    "text": "looking",
+                    "start": 205.32,
+                    "end": 205.62,
+                    "confidence": 0.987
+                },
+                {
+                    "text": "at",
+                    "start": 205.62,
+                    "end": 205.8,
+                    "confidence": 0.998
+                },
+                {
+                    "text": "that,",
+                    "start": 205.8,
+                    "end": 205.96,
+                    "confidence": 0.997
+                },
+                {
+                    "text": "do",
+                    "start": 206.04,
+                    "end": 206.16,
+                    "confidence": 0.758
+                },
+                {
+                    "text": "you",
+                    "start": 206.16,
+                    "end": 206.28,
+                    "confidence": 0.998
+                },
+                {
+                    "text": "mean",
+                    "start": 206.28,
+                    "end": 206.5,
+                    "confidence": 0.996
+                },
+                {
+                    "text": "to",
+                    "start": 206.5,
+                    "end": 206.64,
+                    "confidence": 0.992
+                },
+                {
+                    "text": "say",
+                    "start": 206.64,
+                    "end": 206.8,
+                    "confidence": 0.998
+                },
+                {
+                    "text": "that",
+                    "start": 206.8,
+                    "end": 206.94,
+                    "confidence": 0.953
+                },
+                {
+                    "text": "environmental,",
+                    "start": 206.94,
+                    "end": 207.36,
+                    "confidence": 0.773
+                },
+                {
+                    "text": "social,",
+                    "start": 207.62,
+                    "end": 207.86,
+                    "confidence": 0.968
+                },
+                {
+                    "text": "and",
+                    "start": 208.06,
+                    "end": 208.1,
+                    "confidence": 0.944
+                },
+                {
+                    "text": "corporate",
+                    "start": 208.1,
+                    "end": 208.42,
+                    "confidence": 0.986
+                },
+                {
+                    "text": "governance?",
+                    "start": 208.42,
+                    "end": 208.8,
+                    "confidence": 0.974
+                }
+            ]
+        },
+        {
+            "id": 57,
+            "seek": 19200,
+            "start": 209.66,
+            "end": 211.06,
+            "text": " Yeah, to put the word corporate in there?",
+            "tokens": [
+                51214,
+                865,
+                11,
+                281,
+                829,
+                264,
+                1349,
+                10896,
+                294,
+                456,
+                30,
+                51314
+            ],
+            "temperature": 0.0,
+            "avg_logprob": -0.1905393351679263,
+            "compression_ratio": 1.7457627118644068,
+            "no_speech_prob": 0.05352773144841194,
+            "confidence": 0.947,
+            "words": [
+                {
+                    "text": "Yeah,",
+                    "start": 209.66,
+                    "end": 209.82,
+                    "confidence": 0.72
+                },
+                {
+                    "text": "to",
+                    "start": 209.86,
+                    "end": 209.94,
+                    "confidence": 0.96
+                },
+                {
+                    "text": "put",
+                    "start": 209.94,
+                    "end": 210.08,
+                    "confidence": 0.999
+                },
+                {
+                    "text": "the",
+                    "start": 210.08,
+                    "end": 210.18,
+                    "confidence": 0.998
+                },
+                {
+                    "text": "word",
+                    "start": 210.18,
+                    "end": 210.3,
+                    "confidence": 0.998
+                },
+                {
+                    "text": "corporate",
+                    "start": 210.3,
+                    "end": 210.74,
+                    "confidence": 0.944
+                },
+                {
+                    "text": "in",
+                    "start": 210.74,
+                    "end": 210.94,
+                    "confidence": 0.993
+                },
+                {
+                    "text": "there?",
+                    "start": 210.94,
+                    "end": 211.06,
+                    "confidence": 0.999
+                }
+            ]
+        },
+        {
+            "id": 58,
+            "seek": 19200,
+            "start": 211.28,
+            "end": 213.36,
+            "text": " Yeah, no, no, I just want to make sure you did mean that.",
+            "tokens": [
+                51314,
+                865,
+                11,
+                572,
+                11,
+                572,
+                11,
+                286,
+                445,
+                528,
+                281,
+                652,
+                988,
+                291,
+                630,
+                914,
+                300,
+                13,
+                51414
+            ],
+            "temperature": 0.0,
+            "avg_logprob": -0.1905393351679263,
+            "compression_ratio": 1.7457627118644068,
+            "no_speech_prob": 0.05352773144841194,
+            "confidence": 0.861,
+            "words": [
+                {
+                    "text": "Yeah,",
+                    "start": 211.28,
+                    "end": 211.42,
+                    "confidence": 0.559
+                },
+                {
+                    "text": "no,",
+                    "start": 211.58,
+                    "end": 211.74,
+                    "confidence": 0.893
+                },
+                {
+                    "text": "no,",
+                    "start": 211.76,
+                    "end": 211.82,
+                    "confidence": 0.778
+                },
+                {
+                    "text": "I",
+                    "start": 211.96,
+                    "end": 211.98,
+                    "confidence": 0.816
+                },
+                {
+                    "text": "just",
+                    "start": 211.98,
+                    "end": 212.14,
+                    "confidence": 0.984
+                },
+                {
+                    "text": "want",
+                    "start": 212.14,
+                    "end": 212.28,
+                    "confidence": 0.778
+                },
+                {
+                    "text": "to",
+                    "start": 212.28,
+                    "end": 212.34,
+                    "confidence": 0.998
+                },
+                {
+                    "text": "make",
+                    "start": 212.34,
+                    "end": 212.44,
+                    "confidence": 0.997
+                },
+                {
+                    "text": "sure",
+                    "start": 212.44,
+                    "end": 212.62,
+                    "confidence": 0.998
+                },
+                {
+                    "text": "you",
+                    "start": 212.62,
+                    "end": 212.8,
+                    "confidence": 0.97
+                },
+                {
+                    "text": "did",
+                    "start": 212.8,
+                    "end": 213.0,
+                    "confidence": 0.636
+                },
+                {
+                    "text": "mean",
+                    "start": 213.0,
+                    "end": 213.18,
+                    "confidence": 0.969
+                },
+                {
+                    "text": "that.",
+                    "start": 213.18,
+                    "end": 213.36,
+                    "confidence": 0.996
+                }
+            ]
+        },
+        {
+            "id": 59,
+            "seek": 19200,
+            "start": 213.54,
+            "end": 213.85,
+            "text": " Yeah, yeah.",
+            "tokens": [
+                51414,
+                865,
+                11,
+                1338,
+                13,
+                51464
+            ],
+            "temperature": 0.0,
+            "avg_logprob": -0.1905393351679263,
+            "compression_ratio": 1.7457627118644068,
+            "no_speech_prob": 0.05352773144841194,
+            "confidence": 0.976,
+            "words": [
+                {
+                    "text": "Yeah,",
+                    "start": 213.54,
+                    "end": 213.68,
+                    "confidence": 0.969
+                },
+                {
+                    "text": "yeah.",
+                    "start": 213.78,
+                    "end": 213.85,
+                    "confidence": 0.982
+                }
+            ]
+        },
+        {
+            "id": 60,
+            "seek": 19200,
+            "start": 213.85,
+            "end": 214.82,
+            "text": " Okay, cool.",
+            "tokens": [
+                51464,
+                1033,
+                11,
+                1627,
+                13,
+                51514
+            ],
+            "temperature": 0.0,
+            "avg_logprob": -0.1905393351679263,
+            "compression_ratio": 1.7457627118644068,
+            "no_speech_prob": 0.05352773144841194,
+            "confidence": 0.846,
+            "words": [
+                {
+                    "text": "Okay,",
+                    "start": 213.85,
+                    "end": 214.6,
+                    "confidence": 0.742
+                },
+                {
+                    "text": "cool.",
+                    "start": 214.72,
+                    "end": 214.82,
+                    "confidence": 0.966
+                }
+            ]
+        },
+        {
+            "id": 61,
+            "seek": 19200,
+            "start": 214.82,
+            "end": 219.22,
+            "text": " And the reason I've done that is sometimes with the G in governance,",
+            "tokens": [
+                51514,
+                400,
+                264,
+                1778,
+                286,
+                600,
+                1096,
+                300,
+                307,
+                2171,
+                365,
+                264,
+                460,
+                294,
+                17449,
+                11,
+                51764
+            ],
+            "temperature": 0.0,
+            "avg_logprob": -0.1905393351679263,
+            "compression_ratio": 1.7457627118644068,
+            "no_speech_prob": 0.05352773144841194,
+            "confidence": 0.86,
+            "words": [
+                {
+                    "text": "And",
+                    "start": 214.82,
+                    "end": 215.44,
+                    "confidence": 0.389
+                },
+                {
+                    "text": "the",
+                    "start": 215.44,
+                    "end": 215.72,
+                    "confidence": 0.508
+                },
+                {
+                    "text": "reason",
+                    "start": 215.72,
+                    "end": 216.4,
+                    "confidence": 0.993
+                },
+                {
+                    "text": "I've",
+                    "start": 216.4,
+                    "end": 216.62,
+                    "confidence": 0.973
+                },
+                {
+                    "text": "done",
+                    "start": 216.62,
+                    "end": 216.7,
+                    "confidence": 0.982
+                },
+                {
+                    "text": "that",
+                    "start": 216.7,
+                    "end": 216.82,
+                    "confidence": 0.995
+                },
+                {
+                    "text": "is",
+                    "start": 216.82,
+                    "end": 216.98,
+                    "confidence": 0.971
+                },
+                {
+                    "text": "sometimes",
+                    "start": 216.98,
+                    "end": 217.38,
+                    "confidence": 0.886
+                },
+                {
+                    "text": "with",
+                    "start": 217.38,
+                    "end": 217.62,
+                    "confidence": 0.959
+                },
+                {
+                    "text": "the",
+                    "start": 217.62,
+                    "end": 217.78,
+                    "confidence": 0.937
+                },
+                {
+                    "text": "G",
+                    "start": 217.78,
+                    "end": 218.68,
+                    "confidence": 0.903
+                },
+                {
+                    "text": "in",
+                    "start": 218.68,
+                    "end": 218.9,
+                    "confidence": 0.97
+                },
+                {
+                    "text": "governance,",
+                    "start": 218.9,
+                    "end": 219.22,
+                    "confidence": 0.991
+                }
+            ]
+        },
+        {
+            "id": 62,
+            "seek": 22000,
+            "start": 220.52,
+            "end": 222.02,
+            "text": " people want to talk about it as a government.",
+            "tokens": [
+                50364,
+                561,
+                528,
+                281,
+                751,
+                466,
+                309,
+                382,
+                257,
+                2463,
+                13,
+                50514
+            ],
+            "temperature": 0.0,
+            "avg_logprob": -0.118707275390625,
+            "compression_ratio": 1.6491228070175439,
+            "no_speech_prob": 0.0011063562706112862,
+            "confidence": 0.946,
+            "words": [
+                {
+                    "text": "people",
+                    "start": 220.52,
+                    "end": 220.76,
+                    "confidence": 0.976
+                },
+                {
+                    "text": "want",
+                    "start": 220.76,
+                    "end": 220.94,
+                    "confidence": 0.986
+                },
+                {
+                    "text": "to",
+                    "start": 220.94,
+                    "end": 221.02,
+                    "confidence": 0.999
+                },
+                {
+                    "text": "talk",
+                    "start": 221.02,
+                    "end": 221.16,
+                    "confidence": 0.997
+                },
+                {
+                    "text": "about",
+                    "start": 221.16,
+                    "end": 221.32,
+                    "confidence": 0.997
+                },
+                {
+                    "text": "it",
+                    "start": 221.32,
+                    "end": 221.4,
+                    "confidence": 0.831
+                },
+                {
+                    "text": "as",
+                    "start": 221.4,
+                    "end": 221.5,
+                    "confidence": 0.994
+                },
+                {
+                    "text": "a",
+                    "start": 221.5,
+                    "end": 221.6,
+                    "confidence": 0.776
+                },
+                {
+                    "text": "government.",
+                    "start": 221.6,
+                    "end": 222.02,
+                    "confidence": 0.992
+                }
+            ]
+        },
+        {
+            "id": 63,
+            "seek": 22000,
+            "start": 222.9,
+            "end": 223.22,
+            "text": " Got it.",
+            "tokens": [
+                50514,
+                5803,
+                309,
+                13,
+                50564
+            ],
+            "temperature": 0.0,
+            "avg_logprob": -0.118707275390625,
+            "compression_ratio": 1.6491228070175439,
+            "no_speech_prob": 0.0011063562706112862,
+            "confidence": 0.837,
+            "words": [
+                {
+                    "text": "Got",
+                    "start": 222.9,
+                    "end": 223.06,
+                    "confidence": 0.703
+                },
+                {
+                    "text": "it.",
+                    "start": 223.06,
+                    "end": 223.22,
+                    "confidence": 0.996
+                }
+            ]
+        },
+        {
+            "id": 64,
+            "seek": 22000,
+            "start": 223.5,
+            "end": 224.8,
+            "text": " Yeah, I brought it to that.",
+            "tokens": [
+                50564,
+                865,
+                11,
+                286,
+                3038,
+                309,
+                281,
+                300,
+                13,
+                50614
+            ],
+            "temperature": 0.0,
+            "avg_logprob": -0.118707275390625,
+            "compression_ratio": 1.6491228070175439,
+            "no_speech_prob": 0.0011063562706112862,
+            "confidence": 0.618,
+            "words": [
+                {
+                    "text": "Yeah,",
+                    "start": 223.5,
+                    "end": 223.62,
+                    "confidence": 0.36
+                },
+                {
+                    "text": "I",
+                    "start": 224.12,
+                    "end": 224.14,
+                    "confidence": 0.888
+                },
+                {
+                    "text": "brought",
+                    "start": 224.14,
+                    "end": 224.4,
+                    "confidence": 0.32
+                },
+                {
+                    "text": "it",
+                    "start": 224.4,
+                    "end": 224.56,
+                    "confidence": 0.667
+                },
+                {
+                    "text": "to",
+                    "start": 224.56,
+                    "end": 224.64,
+                    "confidence": 0.82
+                },
+                {
+                    "text": "that.",
+                    "start": 224.64,
+                    "end": 224.8,
+                    "confidence": 0.993
+                }
+            ]
+        },
+        {
+            "id": 65,
+            "seek": 22000,
+            "start": 225.12,
+            "end": 227.34,
+            "text": " And so I wanted to just make that clear.",
+            "tokens": [
+                50614,
+                400,
+                370,
+                286,
+                1415,
+                281,
+                445,
+                652,
+                300,
+                1850,
+                13,
+                50714
+            ],
+            "temperature": 0.0,
+            "avg_logprob": -0.118707275390625,
+            "compression_ratio": 1.6491228070175439,
+            "no_speech_prob": 0.0011063562706112862,
+            "confidence": 0.917,
+            "words": [
+                {
+                    "text": "And",
+                    "start": 225.12,
+                    "end": 225.28,
+                    "confidence": 0.866
+                },
+                {
+                    "text": "so",
+                    "start": 225.28,
+                    "end": 225.78,
+                    "confidence": 0.982
+                },
+                {
+                    "text": "I",
+                    "start": 225.78,
+                    "end": 225.92,
+                    "confidence": 0.834
+                },
+                {
+                    "text": "wanted",
+                    "start": 225.92,
+                    "end": 226.1,
+                    "confidence": 0.979
+                },
+                {
+                    "text": "to",
+                    "start": 226.1,
+                    "end": 226.26,
+                    "confidence": 0.892
+                },
+                {
+                    "text": "just",
+                    "start": 226.26,
+                    "end": 226.46,
+                    "confidence": 0.914
+                },
+                {
+                    "text": "make",
+                    "start": 226.46,
+                    "end": 226.96,
+                    "confidence": 0.815
+                },
+                {
+                    "text": "that",
+                    "start": 226.96,
+                    "end": 227.16,
+                    "confidence": 0.997
+                },
+                {
+                    "text": "clear.",
+                    "start": 227.16,
+                    "end": 227.34,
+                    "confidence": 0.996
+                }
+            ]
+        },
+        {
+            "id": 66,
+            "seek": 22000,
+            "start": 227.34,
+            "end": 229.1,
+            "text": " We're actually talking about the leadership of the company.",
+            "tokens": [
+                50714,
+                492,
+                434,
+                767,
+                1417,
+                466,
+                264,
+                5848,
+                295,
+                264,
+                2237,
+                13,
+                50814
+            ],
+            "temperature": 0.0,
+            "avg_logprob": -0.118707275390625,
+            "compression_ratio": 1.6491228070175439,
+            "no_speech_prob": 0.0011063562706112862,
+            "confidence": 0.997,
+            "words": [
+                {
+                    "text": "We're",
+                    "start": 227.34,
+                    "end": 227.58,
+                    "confidence": 0.993
+                },
+                {
+                    "text": "actually",
+                    "start": 227.58,
+                    "end": 227.76,
+                    "confidence": 0.998
+                },
+                {
+                    "text": "talking",
+                    "start": 227.76,
+                    "end": 228.02,
+                    "confidence": 0.997
+                },
+                {
+                    "text": "about",
+                    "start": 228.02,
+                    "end": 228.18,
+                    "confidence": 0.999
+                },
+                {
+                    "text": "the",
+                    "start": 228.18,
+                    "end": 228.32,
+                    "confidence": 0.997
+                },
+                {
+                    "text": "leadership",
+                    "start": 228.32,
+                    "end": 228.54,
+                    "confidence": 0.999
+                },
+                {
+                    "text": "of",
+                    "start": 228.54,
+                    "end": 228.74,
+                    "confidence": 0.999
+                },
+                {
+                    "text": "the",
+                    "start": 228.74,
+                    "end": 228.86,
+                    "confidence": 0.997
+                },
+                {
+                    "text": "company.",
+                    "start": 228.86,
+                    "end": 229.1,
+                    "confidence": 0.999
+                }
+            ]
+        },
+        {
+            "id": 67,
+            "seek": 22000,
+            "start": 229.22,
+            "end": 230.6,
+            "text": " Especially within the context of this.",
+            "tokens": [
+                50814,
+                8545,
+                1951,
+                264,
+                4319,
+                295,
+                341,
+                13,
+                50914
+            ],
+            "temperature": 0.0,
+            "avg_logprob": -0.118707275390625,
+            "compression_ratio": 1.6491228070175439,
+            "no_speech_prob": 0.0011063562706112862,
+            "confidence": 0.816,
+            "words": [
+                {
+                    "text": "Especially",
+                    "start": 229.22,
+                    "end": 229.52,
+                    "confidence": 0.939
+                },
+                {
+                    "text": "within",
+                    "start": 229.52,
+                    "end": 229.78,
+                    "confidence": 0.978
+                },
+                {
+                    "text": "the",
+                    "start": 229.78,
+                    "end": 229.96,
+                    "confidence": 0.974
+                },
+                {
+                    "text": "context",
+                    "start": 229.96,
+                    "end": 230.28,
+                    "confidence": 0.997
+                },
+                {
+                    "text": "of",
+                    "start": 230.28,
+                    "end": 230.46,
+                    "confidence": 0.893
+                },
+                {
+                    "text": "this.",
+                    "start": 230.46,
+                    "end": 230.6,
+                    "confidence": 0.371
+                }
+            ]
+        },
+        {
+            "id": 68,
+            "seek": 22000,
+            "start": 230.72,
+            "end": 231.24,
+            "text": " Okay, cool.",
+            "tokens": [
+                50914,
+                1033,
+                11,
+                1627,
+                13,
+                50964
+            ],
+            "temperature": 0.0,
+            "avg_logprob": -0.118707275390625,
+            "compression_ratio": 1.6491228070175439,
+            "no_speech_prob": 0.0011063562706112862,
+            "confidence": 0.841,
+            "words": [
+                {
+                    "text": "Okay,",
+                    "start": 230.72,
+                    "end": 230.96,
+                    "confidence": 0.712
+                },
+                {
+                    "text": "cool.",
+                    "start": 231.14,
+                    "end": 231.24,
+                    "confidence": 0.994
+                }
+            ]
+        },
+        {
+            "id": 69,
+            "seek": 22000,
+            "start": 232.26,
+            "end": 233.08,
+            "text": " But I stumble on it.",
+            "tokens": [
+                50964,
+                583,
+                286,
+                41302,
+                322,
+                309,
+                13,
+                51064
+            ],
+            "temperature": 0.0,
+            "avg_logprob": -0.118707275390625,
+            "compression_ratio": 1.6491228070175439,
+            "no_speech_prob": 0.0011063562706112862,
+            "confidence": 0.989,
+            "words": [
+                {
+                    "text": "But",
+                    "start": 232.26,
+                    "end": 232.42,
+                    "confidence": 0.98
+                },
+                {
+                    "text": "I",
+                    "start": 232.42,
+                    "end": 232.52,
+                    "confidence": 0.994
+                },
+                {
+                    "text": "stumble",
+                    "start": 232.52,
+                    "end": 232.76,
+                    "confidence": 0.977
+                },
+                {
+                    "text": "on",
+                    "start": 232.76,
+                    "end": 232.96,
+                    "confidence": 0.998
+                },
+                {
+                    "text": "it.",
+                    "start": 232.96,
+                    "end": 233.08,
+                    "confidence": 0.996
+                }
+            ]
+        },
+        {
+            "id": 70,
+            "seek": 22000,
+            "start": 234.82,
+            "end": 236.16,
+            "text": " All right, where do you want me to start?",
+            "tokens": [
+                51064,
+                1057,
+                558,
+                11,
+                689,
+                360,
+                291,
+                528,
+                385,
+                281,
+                722,
+                30,
+                51164
+            ],
+            "temperature": 0.0,
+            "avg_logprob": -0.118707275390625,
+            "compression_ratio": 1.6491228070175439,
+            "no_speech_prob": 0.0011063562706112862,
+            "confidence": 0.939,
+            "words": [
+                {
+                    "text": "All",
+                    "start": 234.82,
+                    "end": 234.96,
+                    "confidence": 0.593
+                },
+                {
+                    "text": "right,",
+                    "start": 234.96,
+                    "end": 235.0,
+                    "confidence": 1.0
+                },
+                {
+                    "text": "where",
+                    "start": 235.16,
+                    "end": 235.62,
+                    "confidence": 0.963
+                },
+                {
+                    "text": "do",
+                    "start": 235.62,
+                    "end": 235.68,
+                    "confidence": 0.997
+                },
+                {
+                    "text": "you",
+                    "start": 235.68,
+                    "end": 235.76,
+                    "confidence": 0.997
+                },
+                {
+                    "text": "want",
+                    "start": 235.76,
+                    "end": 235.84,
+                    "confidence": 1.0
+                },
+                {
+                    "text": "me",
+                    "start": 235.84,
+                    "end": 235.92,
+                    "confidence": 0.999
+                },
+                {
+                    "text": "to",
+                    "start": 235.92,
+                    "end": 236.0,
+                    "confidence": 0.998
+                },
+                {
+                    "text": "start?",
+                    "start": 236.0,
+                    "end": 236.16,
+                    "confidence": 1.0
+                }
+            ]
+        },
+        {
+            "id": 71,
+            "seek": 22000,
+            "start": 236.4,
+            "end": 236.88,
+            "text": " Environmental.",
+            "tokens": [
+                51164,
+                27813,
+                13,
+                51214
+            ],
+            "temperature": 0.0,
+            "avg_logprob": -0.118707275390625,
+            "compression_ratio": 1.6491228070175439,
+            "no_speech_prob": 0.0011063562706112862,
+            "confidence": 0.982,
+            "words": [
+                {
+                    "text": "Environmental.",
+                    "start": 236.4,
+                    "end": 236.88,
+                    "confidence": 0.982
+                }
+            ]
+        },
+        {
+            "id": 72,
+            "seek": 22000,
+            "start": 237.42,
+            "end": 237.59,
+            "text": " All right.",
+            "tokens": [
+                51214,
+                1057,
+                558,
+                13,
+                51264
+            ],
+            "temperature": 0.0,
+            "avg_logprob": -0.118707275390625,
+            "compression_ratio": 1.6491228070175439,
+            "no_speech_prob": 0.0011063562706112862,
+            "confidence": 0.888,
+            "words": [
+                {
+                    "text": "All",
+                    "start": 237.42,
+                    "end": 237.54,
+                    "confidence": 0.79
+                },
+                {
+                    "text": "right.",
+                    "start": 237.54,
+                    "end": 237.59,
+                    "confidence": 0.999
+                }
+            ]
+        },
+        {
+            "id": 73,
+            "seek": 22000,
+            "start": 237.59,
+            "end": 243.62,
+            "text": " Environmental, social, and corporate governance factors represent a shift",
+            "tokens": [
+                51264,
+                27813,
+                11,
+                2093,
+                11,
+                293,
+                10896,
+                17449,
+                6771,
+                2906,
+                257,
+                5513,
+                51564
+            ],
+            "temperature": 0.0,
+            "avg_logprob": -0.118707275390625,
+            "compression_ratio": 1.6491228070175439,
+            "no_speech_prob": 0.0011063562706112862,
+            "confidence": 0.971,
+            "words": [
+                {
+                    "text": "Environmental,",
+                    "start": 237.59,
+                    "end": 239.28,
+                    "confidence": 0.947
+                },
+                {
+                    "text": "social,",
+                    "start": 239.52,
+                    "end": 240.18,
+                    "confidence": 0.999
+                },
+                {
+                    "text": "and",
+                    "start": 240.38,
+                    "end": 240.6,
+                    "confidence": 0.996
+                },
+                {
+                    "text": "corporate",
+                    "start": 240.6,
+                    "end": 241.06,
+                    "confidence": 0.999
+                },
+                {
+                    "text": "governance",
+                    "start": 241.06,
+                    "end": 241.62,
+                    "confidence": 0.993
+                },
+                {
+                    "text": "factors",
+                    "start": 241.62,
+                    "end": 242.12,
+                    "confidence": 0.998
+                },
+                {
+                    "text": "represent",
+                    "start": 242.12,
+                    "end": 242.88,
+                    "confidence": 0.852
+                },
+                {
+                    "text": "a",
+                    "start": 242.88,
+                    "end": 243.22,
+                    "confidence": 0.967
+                },
+                {
+                    "text": "shift",
+                    "start": 243.22,
+                    "end": 243.62,
+                    "confidence": 0.996
+                }
+            ]
+        },
+        {
+            "id": 74,
+            "seek": 22000,
+            "start": 244.0,
+            "end": 248.24,
+            "text": " in how to create value and increase profitability through sustainability.",
+            "tokens": [
+                51564,
+                294,
+                577,
+                281,
+                1884,
+                2158,
+                293,
+                3488,
+                46249,
+                807,
+                16360,
+                13,
+                51814
+            ],
+            "temperature": 0.0,
+            "avg_logprob": -0.118707275390625,
+            "compression_ratio": 1.6491228070175439,
+            "no_speech_prob": 0.0011063562706112862,
+            "confidence": 0.976,
+            "words": [
+                {
+                    "text": "in",
+                    "start": 244.0,
+                    "end": 244.16,
+                    "confidence": 0.902
+                },
+                {
+                    "text": "how",
+                    "start": 244.16,
+                    "end": 244.38,
+                    "confidence": 0.999
+                },
+                {
+                    "text": "to",
+                    "start": 244.38,
+                    "end": 244.5,
+                    "confidence": 0.999
+                },
+                {
+                    "text": "create",
+                    "start": 244.5,
+                    "end": 244.76,
+                    "confidence": 0.999
+                },
+                {
+                    "text": "value",
+                    "start": 244.76,
+                    "end": 245.2,
+                    "confidence": 0.999
+                },
+                {
+                    "text": "and",
+                    "start": 245.2,
+                    "end": 245.68,
+                    "confidence": 0.936
+                },
+                {
+                    "text": "increase",
+                    "start": 245.68,
+                    "end": 246.28,
+                    "confidence": 0.945
+                },
+                {
+                    "text": "profitability",
+                    "start": 246.28,
+                    "end": 246.96,
+                    "confidence": 0.996
+                },
+                {
+                    "text": "through",
+                    "start": 246.96,
+                    "end": 247.66,
+                    "confidence": 0.991
+                },
+                {
+                    "text": "sustainability.",
+                    "start": 247.66,
+                    "end": 248.24,
+                    "confidence": 1.0
+                }
+            ]
+        },
+        {
+            "id": 75,
+            "seek": 24900,
+            "start": 249.82,
+            "end": 252.12,
+            "text": " I'll take you one more time for environmental.",
+            "tokens": [
+                50364,
+                286,
+                603,
+                747,
+                291,
+                472,
+                544,
+                565,
+                337,
+                8303,
+                13,
+                50514
+            ],
+            "temperature": 0.0,
+            "avg_logprob": -0.32102192365206206,
+            "compression_ratio": 0.8518518518518519,
+            "no_speech_prob": 0.7587665319442749,
+            "confidence": 0.687,
+            "words": [
+                {
+                    "text": "I'll",
+                    "start": 249.82,
+                    "end": 250.14,
+                    "confidence": 0.276
+                },
+                {
+                    "text": "take",
+                    "start": 250.14,
+                    "end": 250.3,
+                    "confidence": 0.895
+                },
+                {
+                    "text": "you",
+                    "start": 250.3,
+                    "end": 250.5,
+                    "confidence": 0.73
+                },
+                {
+                    "text": "one",
+                    "start": 250.5,
+                    "end": 251.2,
+                    "confidence": 0.93
+                },
+                {
+                    "text": "more",
+                    "start": 251.2,
+                    "end": 251.32,
+                    "confidence": 0.998
+                },
+                {
+                    "text": "time",
+                    "start": 251.32,
+                    "end": 251.56,
+                    "confidence": 0.993
+                },
+                {
+                    "text": "for",
+                    "start": 251.56,
+                    "end": 251.76,
+                    "confidence": 0.793
+                },
+                {
+                    "text": "environmental.",
+                    "start": 251.76,
+                    "end": 252.12,
+                    "confidence": 0.934
+                }
+            ]
+        }
+    ],
+    "language": "en"
+}
