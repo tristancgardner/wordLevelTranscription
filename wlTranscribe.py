@@ -1,8 +1,12 @@
-#!/Users/tristangardner/Documents/Programming/1. Apps - WIP/wordLevelTranscription/venv/bin/python3
+##/Users/tristangardner/Documents/Programming/1. Apps - WIP/wordLevelTranscription/venv/bin/python3
 
-## Word-Level Transcription v1.7.0 - 2024-02-15
+# Word-Level Transcription v1.7.0 - 2024-02-15
+# got all the callbacks connected, just need to get a simple streamlit progress bar working based on it and im done with this
 
-## got all the callbacks connected, just need to get a simple streamlit progress bar working based on it and im done with this
+# / testing streamlit interpreter
+import sys
+
+print(sys.executable)
 
 import whisper_timestamped as whisper
 import datetime
@@ -14,11 +18,29 @@ import datetime
 import time
 from tqdm import tqdm
 
-# import streamlit as st
-# import time
-# import whisper
-# from whisper.transcribe import global_progress
-# import threading
+import streamlit as st
+from io import BytesIO
+import tempfile
+from zipfile import ZipFile, ZIP_DEFLATED
+from moviepy.editor import VideoFileClip
+
+
+## STREAMLIT FUNCTIONS
+def streamlit_progress_callback(progress):
+    st.session_state.progress = progress
+    # Trigger a rerun to update the progress bar
+    # st.experimental_rerun()
+
+
+def get_video_duration(file_path):
+    with VideoFileClip(file_path) as video:
+        return 1
+
+
+def format_duration(seconds):
+    hours, remainder = divmod(seconds, 3600)
+    minutes, seconds = divmod(remainder, 60)
+    return f"{int(hours)}:{int(minutes):02d}:{int(seconds):02d}"
 
 
 ## FUNCTIONS
@@ -72,7 +94,8 @@ progress_bar = None
 def update_variable(
     progress, update=True, total_frames=None, description=None, reset=None
 ):
-    global progress_bar
+    # If using TQDM in terminal
+    """global progress_bar
     if progress_bar is None:
         progress_bar = ProgressBar(total=total_frames, desc=description)
     if reset is True:
@@ -81,36 +104,9 @@ def update_variable(
     if update is not False:
         progress_bar.update(progress)
     else:
-        progress_bar.refresh(progress)
+        progress_bar.refresh(progress)"""
 
-
-##! 240217 working to polish the progress callback logic
-""" 
-1.5 min file --process time--> 1.32 minutes
-3.9 min file --process time--> 5.0 mintues 
-
-There are _ code blocks that contribute to wait time in a 1.5 min file
-
-(1) Total frames are printed/stored
-(2) The progress bar is initiated
-(3) ** 1st decoding process is initiated
-(4) segments compiled 
-(5) ** 2nd decoding process is initiated
-(6) segments compiled
-(7) transcription complete
-(8) ** word-alignment starts - custom progress initiated on whisper_segments
-(9) Writes to josn 
-(10) Script complete
-
-What I want to do:
-+ Check a 3 min file, how many decodes does it do? 
-    ** results: 3.5 min file decodes many times, native progress bar seemed to suffice
-- get tqdm values and Update progress bar after each decode/transcribe loop completes like tqdm 
-- Update progress bar for word-alignment (easy)
-- Display complete status 
-- Move on to next file
-
-"""
+    # If using Streamlit progress bar
 
 
 ## CORE FUNCTIONS
@@ -152,10 +148,21 @@ def process_folder(folder_path):
 
 
 ## RUN FUCNCTIONS
+
+# * STREAMLIT SETUP
+st.title("ModalMix Pro")
+st.markdown("**Pre-Render Files for Auto-Assembly**")
+
+uploaded_files = st.file_uploader(
+    "Upload video or audio files or a zipped folder of files for transcription!",
+    accept_multiple_files=True,
+)
+
+
+# * TRANSCRIPTION PROCESS
 # file_path = "/Users/tristangardner/Documents/Programming/3. Test Media/Wayne Mayer/Test Transcription Snippets/5.1.mp4"  # (5 seconds)
 # file_path = "/Users/tristangardner/Documents/Programming/3. Test Media/Wayne Mayer/Full Proxies 240117/EXO_WM_S001_S001_T006_proxyWT.mp4"  # (3:52 minutes)
 file_path = "/Users/tristangardner/Documents/Programming/3. Test Media/Wayne Mayer/Test Transcription Snippets/EXO_WM_S001_S001_T004_proxyWT (1.5min) copy.mp4"  # (1.5 minutes)
-
 
 # audio_folder = "/Users/tristangardner/Documents/Programming/3. Test Videos/Wayne Mayer/Full Proxies 240117"
 
@@ -163,8 +170,6 @@ file_path = "/Users/tristangardner/Documents/Programming/3. Test Media/Wayne May
 start_time = time.time()
 
 dictioanry_result = wlTranscribe(file_path)
-
-# update_variable()
 
 toJson(dictioanry_result, file_path, prefix="")
 
@@ -178,8 +183,14 @@ execution_time = round(execution_time, 1)
 # print(f"\nThe script took {execution_time} minutes to complete.\n")
 
 
-## for a folder of files (working 2415)
-""" def multiWrite(dictionary, file_name, prefix="transcription"):
+""" #* Process time results
+1.5 min file --process time--> 1.32 minutes
+3.9 min file --process time--> 5.0 mintues  
+"""
+
+
+""" #/ for a folder of files (working 2415)
+def multiWrite(dictionary, file_name, prefix="transcription"):
     if prefix != "":
         file_name_with_prefix = f"{prefix}_{file_name}"
         file_name = file_name_with_prefix
@@ -196,8 +207,10 @@ execution_time = round(execution_time, 1)
 multiWrite(dictionary_result, file_path, prefix="") """
 
 
-## to make this executable from the terminal with a filepath as a parameter
-""" To execute your script from the terminal with a variable as a filepath for the parameter of the main function, you can use command line arguments. In Python, you can access command line arguments via the `sys.argv` list. 
+""" #/ to make this executable from the terminal with a filepath as a parameter
+
+
+To execute your script from the terminal with a variable as a filepath for the parameter of the main function, you can use command line arguments. In Python, you can access command line arguments via the `sys.argv` list. 
 
 Here's a basic example of how you can modify your script to accept a filepath as a command line argument:
 
