@@ -1,12 +1,5 @@
-##/Users/tristangardner/Documents/Programming/1. Apps - WIP/wordLevelTranscription/venv/bin/python3
-
 # Word-Level Transcription v1.7.0 - 2024-02-15
 # got all the callbacks connected, just need to get a simple streamlit progress bar working based on it and im done with this
-
-# / testing streamlit interpreter
-import sys
-
-print(sys.executable)
 
 import whisper_timestamped as whisper
 import datetime
@@ -26,10 +19,11 @@ from moviepy.editor import VideoFileClip
 
 
 ## STREAMLIT FUNCTIONS
-def streamlit_progress_callback(progress):
+""" def streamlit_progress_callback(progress):
     st.session_state.progress = progress
     # Trigger a rerun to update the progress bar
     # st.experimental_rerun()
+ """
 
 
 def get_video_duration(file_path):
@@ -95,7 +89,7 @@ def update_variable(
     progress, update=True, total_frames=None, description=None, reset=None
 ):
     # If using TQDM in terminal
-    """global progress_bar
+    global progress_bar
     if progress_bar is None:
         progress_bar = ProgressBar(total=total_frames, desc=description)
     if reset is True:
@@ -104,7 +98,7 @@ def update_variable(
     if update is not False:
         progress_bar.update(progress)
     else:
-        progress_bar.refresh(progress)"""
+        progress_bar.refresh(progress)
 
     # If using Streamlit progress bar
 
@@ -150,14 +144,14 @@ def process_folder(folder_path):
 ## RUN FUCNCTIONS
 
 # * STREAMLIT SETUP
-st.title("ModalMix Pro")
+""" st.title("ModalMix Pro")
 st.markdown("**Pre-Render Files for Auto-Assembly**")
 
 uploaded_files = st.file_uploader(
     "Upload video or audio files or a zipped folder of files for transcription!",
     accept_multiple_files=True,
 )
-
+ """
 
 # * TRANSCRIPTION PROCESS
 # file_path = "/Users/tristangardner/Documents/Programming/3. Test Media/Wayne Mayer/Test Transcription Snippets/5.1.mp4"  # (5 seconds)
