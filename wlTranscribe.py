@@ -11,6 +11,8 @@ import os
 import json
 import base64
 import datetime
+import time
+from tqdm import tqdm
 
 # import streamlit as st
 # import time
@@ -18,9 +20,8 @@ import datetime
 # from whisper.transcribe import global_progress
 # import threading
 
+
 ## FUNCTIONS
-
-
 def dateTime(file_name):
     now = datetime.datetime.now()
     date_time_str = now.strftime("%y%m%d-%H%M")
@@ -39,21 +40,82 @@ def toJson(dictionary, file_name, prefix=""):
     return result_json
 
 
-global my_variable
-my_variable = 0
-print(my_variable)
+class ProgressBar:
+    def __init__(self, total, desc):
+        self.pbar = tqdm(
+            total=total,
+            desc=desc,
+            unit="frames",
+            leave=False,
+        )
+
+    def update(self, increment):
+        self.pbar.update(increment)
+
+    def refresh(self, progress):
+        self.pbar.n = progress
+        self.pbar.refresh()
+
+    def close(self):
+        self.pbar.close()
+        self.pbar = None
+
+    def reset(self, total_reset):
+        self.pbar.reset(total=total_reset)
 
 
-## CALLBACK FUNCTION
-def update_variable():
-    # Update your variable here
-    global my_variable
-    my_variable += 1
-    print(my_variable)
+progress_bar = None
+
+
+## CALLBACK FUNCTION FOR PROGRESS BAR
+# called in ~/whisper/transcribe.py at line ~393
+def update_variable(
+    progress, update=True, total_frames=None, description=None, reset=None
+):
+    global progress_bar
+    if progress_bar is None:
+        progress_bar = ProgressBar(total=total_frames, desc=description)
+    if reset is True:
+        progress_bar.reset(progress)
+        return
+    if update is not False:
+        progress_bar.update(progress)
+    else:
+        progress_bar.refresh(progress)
+
+
+##! 240217 working to polish the progress callback logic
+""" 
+1.5 min file --process time--> 1.32 minutes
+3.9 min file --process time--> 5.0 mintues 
+
+There are _ code blocks that contribute to wait time in a 1.5 min file
+
+(1) Total frames are printed/stored
+(2) The progress bar is initiated
+(3) ** 1st decoding process is initiated
+(4) segments compiled 
+(5) ** 2nd decoding process is initiated
+(6) segments compiled
+(7) transcription complete
+(8) ** word-alignment starts - custom progress initiated on whisper_segments
+(9) Writes to josn 
+(10) Script complete
+
+What I want to do:
++ Check a 3 min file, how many decodes does it do? 
+    ** results: 3.5 min file decodes many times, native progress bar seemed to suffice
+- get tqdm values and Update progress bar after each decode/transcribe loop completes like tqdm 
+- Update progress bar for word-alignment (easy)
+- Display complete status 
+- Move on to next file
+
+"""
 
 
 ## CORE FUNCTIONS
 def wlTranscribe(file_path):
+    # print("\nTranscription begins...\n")
     audio = whisper.load_audio(file_path)
     model = whisper.load_model("medium", device="cpu")
     trans_base_dict = whisper.transcribe(
@@ -68,9 +130,6 @@ def wlTranscribe(file_path):
     )
 
     return trans_base_dict
-
-
-from deepmultilingualpunctuation import PunctuationModel
 
 
 def addPunct(text):
@@ -93,32 +152,48 @@ def process_folder(folder_path):
 
 
 ## RUN FUCNCTIONS
-# file_path = "/Users/tristangardner/Documents/Programming/3. Test Media/Wayne Mayer/Test Transcription Snippets/5.1.mp4"
-file_path = "/Users/tristangardner/Documents/Programming/3. Test Media/Wayne Mayer/Test Transcription Snippets/EXO_WM_S001_S001_T004_proxyWT (1.5min) copy.mp4"
-audio_folder = "/Users/tristangardner/Documents/Programming/3. Test Videos/Wayne Mayer/Full Proxies 240117"
+# file_path = "/Users/tristangardner/Documents/Programming/3. Test Media/Wayne Mayer/Test Transcription Snippets/5.1.mp4"  # (5 seconds)
+# file_path = "/Users/tristangardner/Documents/Programming/3. Test Media/Wayne Mayer/Full Proxies 240117/EXO_WM_S001_S001_T006_proxyWT.mp4"  # (3:52 minutes)
+file_path = "/Users/tristangardner/Documents/Programming/3. Test Media/Wayne Mayer/Test Transcription Snippets/EXO_WM_S001_S001_T004_proxyWT (1.5min) copy.mp4"  # (1.5 minutes)
+
+
+# audio_folder = "/Users/tristangardner/Documents/Programming/3. Test Videos/Wayne Mayer/Full Proxies 240117"
+
+
+start_time = time.time()
 
 dictioanry_result = wlTranscribe(file_path)
 
-update_variable()
+# update_variable()
 
 toJson(dictioanry_result, file_path, prefix="")
 
+progress_bar.close()
+
+end_time = time.time()
+execution_time = end_time - start_time
+execution_time = execution_time / 60
+execution_time = round(execution_time, 1)
+
+# print(f"\nThe script took {execution_time} minutes to complete.\n")
+
+
 ## for a folder of files (working 2415)
-# def multiWrite(dictionary, file_name, prefix="transcription"):
-#     if prefix != "":
-#         file_name_with_prefix = f"{prefix}_{file_name}"
-#         file_name = file_name_with_prefix
-#     file_name_with_date = dateTime(file_name)
-#     file_name_with_date += ".txt"
+""" def multiWrite(dictionary, file_name, prefix="transcription"):
+    if prefix != "":
+        file_name_with_prefix = f"{prefix}_{file_name}"
+        file_name = file_name_with_prefix
+    file_name_with_date = dateTime(file_name)
+    file_name_with_date += ".txt"
 
-#     if dictionary["text"]:
-#         with open(file_name_with_date, "w") as file:
-#             file.write(dictionary["text"])
+    if dictionary["text"]:
+        with open(file_name_with_date, "w") as file:
+            file.write(dictionary["text"])
 
-#     return file_name_with_date
+    return file_name_with_date
 
 
-# multiWrite(dictionary_result, file_path, prefix="")
+multiWrite(dictionary_result, file_path, prefix="") """
 
 
 ## to make this executable from the terminal with a filepath as a parameter
