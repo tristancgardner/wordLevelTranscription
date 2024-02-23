@@ -271,3 +271,4 @@ if transcribe_button and uploaded_files and not st.session_state.transcribe_init
 # 3.9 min file --process time--> 5.0 mintues
 # 3.5 min file --process time--> 5.3 minutes
 # 10.5 min file --process time--> 16.3 minutes
+# 6.65 min file --process time--> __ minutes
