@@ -15,26 +15,22 @@ import streamlit as st
 from io import BytesIO
 import tempfile
 from zipfile import ZipFile, ZIP_DEFLATED
-from moviepy.editor import VideoFileClip
+from moviepy.editor import VideoFileClip, AudioFileClip
 
 
 ## STREAMLIT FUNCTIONS
-""" def streamlit_progress_callback(progress):
-    st.session_state.progress = progress
-    # Trigger a rerun to update the progress bar
-    # st.experimental_rerun()
- """
+def get_media_duration(file_path):
+    if file_path.endswith((".mp3", ".m4a", ".wav", ".flac", ".aac")):
+        with AudioFileClip(file_path) as audio:
+            return audio.duration
+    else:
+        with VideoFileClip(file_path) as video:
+            return video.duration
 
 
-def get_video_duration(file_path):
-    with VideoFileClip(file_path) as video:
-        return 1
-
-
-def format_duration(seconds):
-    hours, remainder = divmod(seconds, 3600)
-    minutes, seconds = divmod(remainder, 60)
-    return f"{int(hours)}:{int(minutes):02d}:{int(seconds):02d}"
+def format_duration(duration):
+    minutes, seconds = divmod(duration, 60)
+    return f"{int(minutes)}m {int(seconds)}s"
 
 
 ## FUNCTIONS
@@ -44,7 +40,11 @@ def dateTime(file_name):
     return f"{file_name}_{date_time_str}"
 
 
-def toJson(dictionary, file_name, prefix=""):
+def toJson(dictionary, file_name):
+    return json.dumps(dictionary, indent=4)
+
+
+def toJson_OG(dictionary, file_name, prefix=""):
     if prefix != "":
         file_name_with_prefix = f"{prefix}_{file_name}"
         file_name = file_name_with_prefix
@@ -80,27 +80,76 @@ class ProgressBar:
         self.pbar.reset(total=total_reset)
 
 
+use_tqdm = False
 progress_bar = None
 
+# * STREAMLIT SETUP
+if "transcribe_initiated" not in st.session_state:
+    st.session_state.transcribe_initiated = False
 
-## CALLBACK FUNCTION FOR PROGRESS BAR
+if "progress" not in st.session_state:
+    st.session_state.progress = 0
+
+if "transcribing_file" not in st.session_state:
+    st.session_state.transcribing_file = False
+
+if "start_time" not in st.session_state:
+    st.session_state.start_time = None
+
+
+st.title("ModalMix Pro")
+st.markdown("**Pre-Render Files for Auto-Assembly**")
+
+uploaded_files = st.file_uploader(
+    "Upload video or audio files or a zipped folder of files for transcription!",
+    accept_multiple_files=True,
+)
+
+transcribe_button = st.button("Transcribe")
+
+progress_length = None  # ? not sure I even need this
+
+
+## CALLBACK FUNCTIONS FOR PROGRESS BAR AND ELAPSED TIMER
 # called in ~/whisper/transcribe.py at line ~393
 def update_variable(
-    progress, update=True, total_frames=None, description=None, reset=None
+    progress,
+    stream=True,
+    decode_increment=None,
+    update=True,
+    total_frames=None,
+    description=None,
+    reset=None,
 ):
-    # If using TQDM in terminal
-    global progress_bar
-    if progress_bar is None:
-        progress_bar = ProgressBar(total=total_frames, desc=description)
-    if reset is True:
-        progress_bar.reset(progress)
-        return
-    if update is not False:
-        progress_bar.update(progress)
-    else:
-        progress_bar.refresh(progress)
+    global progress_length  # ? make sure this doesn't need to be cleared before re-running - yeah pretty sure not needed (240222)
+    if progress_length is None:
 
-    # If using Streamlit progress bar
+        if (
+            total_frames is not None
+        ):  # ? not sure I even need this if all the callback calls give relative percentages - yeah pretty sure not needed (240222)
+            progress_length = total_frames
+
+    if decode_increment == True:
+        progress = progress + st.session_state.progress
+    st.session_state.progress = progress
+
+    st_progress_bar.progress(st.session_state.progress, text=description)
+
+    if stream is not True:
+        global progress_bar
+        if progress_bar is None:
+            if use_tqdm:
+                progress_bar = ProgressBar(total=total_frames, desc=description)
+        if reset is True:
+            if use_tqdm:
+                progress_bar.reset(progress)
+            return
+        if update is not False:
+            if use_tqdm:
+                progress_bar.update(progress)
+        else:
+            if use_tqdm:
+                progress_bar.refresh(progress)
 
 
 ## CORE FUNCTIONS
@@ -143,15 +192,26 @@ def process_folder(folder_path):
 
 ## RUN FUCNCTIONS
 
-# * STREAMLIT SETUP
-""" st.title("ModalMix Pro")
-st.markdown("**Pre-Render Files for Auto-Assembly**")
 
-uploaded_files = st.file_uploader(
-    "Upload video or audio files or a zipped folder of files for transcription!",
-    accept_multiple_files=True,
-)
- """
+# * STREAMLIT SETUP
+def __streamlit_setup_folder():
+    # Initialize session state variables for tracking transcription initiation
+
+    # get estimated wait time
+    # if uploaded_files and not st.session_state.transcribe_initiated:
+    #     with tempfile.TemporaryDirectory() as temp_dir:
+    #         total_duration_seconds = 0
+    #         for uploaded_file in uploaded_files:
+    #             temp_file_path = os.path.join(temp_dir, uploaded_file.name)
+    #             with open(temp_file_path, "wb") as f:
+    #                 f.write(uploaded_file.getbuffer())
+    #             total_duration_seconds += get_video_duration(temp_file_path)
+
+    #     st.write(
+    #         f"Estimated total wait time for all files: {format_duration(total_duration_seconds)}"
+    #     )
+    return
+
 
 # * TRANSCRIPTION PROCESS
 # file_path = "/Users/tristangardner/Documents/Programming/3. Test Media/Wayne Mayer/Test Transcription Snippets/5.1.mp4"  # (5 seconds)
@@ -160,75 +220,54 @@ file_path = "/Users/tristangardner/Documents/Programming/3. Test Media/Wayne May
 
 # audio_folder = "/Users/tristangardner/Documents/Programming/3. Test Videos/Wayne Mayer/Full Proxies 240117"
 
+if transcribe_button and uploaded_files and not st.session_state.transcribe_initiated:
+    st.session_state.transcribe_initiated = True
 
-start_time = time.time()
+    with tempfile.TemporaryDirectory() as temp_dir, BytesIO() as zip_buffer:
+        with ZipFile(zip_buffer, "w", ZIP_DEFLATED) as zf:
+            for i, uploaded_file in enumerate(uploaded_files):
+                temp_file_path = os.path.join(temp_dir, uploaded_file.name)
+                with open(temp_file_path, "wb") as f:
+                    f.write(uploaded_file.getbuffer())
 
-dictioanry_result = wlTranscribe(file_path)
+                file_duration = get_media_duration(temp_file_path)
+                st.write(f"Estimated render time: {format_duration(file_duration)}")
+                st_progress_bar = st.progress(
+                    st.session_state.progress, text="Decoding..."
+                )
+                # st.session_state.start_time = time.time()
+                # st.session_state.transcribing_file = True
+                start_time = time.time()
 
-toJson(dictioanry_result, file_path, prefix="")
+                trans_result = wlTranscribe(temp_file_path)
 
-progress_bar.close()
+                json_content = toJson(trans_result, os.path.basename(temp_file_path))
 
-end_time = time.time()
-execution_time = end_time - start_time
-execution_time = execution_time / 60
-execution_time = round(execution_time, 1)
+                zf.writestr(os.path.basename(temp_file_path) + ".json", json_content)
 
-# print(f"\nThe script took {execution_time} minutes to complete.\n")
+                end_time = time.time()
+                execution_time = end_time - start_time
+                execution_time = execution_time / 60
+                execution_time = round(execution_time, 1)
+                # st.session_state.transcribing_file = False
+                # st.session_state.start_time = None
+                st.write(f"\nThe script took {execution_time} minutes to complete.\n")
 
+        zip_buffer.seek(0)
+        st.download_button(
+            "Download All Transcriptions",
+            data=zip_buffer.getvalue(),
+            file_name="transcriptions.zip",
+            mime="application/zip",
+        )
 
-""" #* Process time results
-1.5 min file --process time--> 1.32 minutes
-3.9 min file --process time--> 5.0 mintues  
-"""
+    # progress_bar.close()
 
-
-""" #/ for a folder of files (working 2415)
-def multiWrite(dictionary, file_name, prefix="transcription"):
-    if prefix != "":
-        file_name_with_prefix = f"{prefix}_{file_name}"
-        file_name = file_name_with_prefix
-    file_name_with_date = dateTime(file_name)
-    file_name_with_date += ".txt"
-
-    if dictionary["text"]:
-        with open(file_name_with_date, "w") as file:
-            file.write(dictionary["text"])
-
-    return file_name_with_date
-
-
-multiWrite(dictionary_result, file_path, prefix="") """
+    # print(f"\nThe script took {execution_time} minutes to complete.\n")
 
 
-""" #/ to make this executable from the terminal with a filepath as a parameter
-
-
-To execute your script from the terminal with a variable as a filepath for the parameter of the main function, you can use command line arguments. In Python, you can access command line arguments via the `sys.argv` list. 
-
-Here's a basic example of how you can modify your script to accept a filepath as a command line argument:
-
-```python
-import sys
-
-def main(filepath):
-    # Your code here
-
-if __name__ == "__main__":
-    if len(sys.argv) != 2:
-        print("Usage: python script.py <filepath>")
-        sys.exit(1)
-
-    filepath = sys.argv[1]
-    main(filepath)
-```
-
-In this script, `sys.argv` is a list that contains the command line arguments that were passed to the script. `sys.argv[0]` is always the name of the script itself, `sys.argv[1]` is the first argument, and so on. 
-
-You can run this script from the terminal and pass a filepath as a command line argument like this:
-
-```bash
-python script.py /path/to/file
-```
-
-Replace `script.py` with the name of your script and `/path/to/file` with the filepath you want to pass to the main function. """
+# #* Process time results
+# 1.5 min file --process time--> 1.32 minutes
+# 3.9 min file --process time--> 5.0 mintues
+# 3.5 min file --process time--> 5.3 minutes
+# 10.5 min file --process time--> 16.3 minutes
