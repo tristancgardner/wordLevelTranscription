@@ -1,7 +1,13 @@
 # Word-Level Transcription v1.7.0 - 2024-02-15
 # got all the callbacks connected, just need to get a simple streamlit progress bar working based on it and im done with this
+import sys
 
-import whisper_timestamped as whisper
+st.write("Python Path:", sys.path)
+
+# sys.path.append("/home/adminuser/venv/src")
+
+# import whisper_timestamped as whisper
+
 import datetime
 from deepmultilingualpunctuation import PunctuationModel
 import os
