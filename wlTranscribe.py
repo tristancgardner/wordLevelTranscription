@@ -8,7 +8,7 @@ st.write("Python Path:", sys.path)
 
 import os
 
-whisper_timestamped_path = "/home/adminuser/venv/src/whisper-timestamped"
+whisper_timestamped_path = "/home/adminuser/venv/src/whisper_timestamped"
 contents = os.listdir(whisper_timestamped_path)
 st.write("Contents of whisper_timestamped:", contents)
 
