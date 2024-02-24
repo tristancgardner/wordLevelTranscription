@@ -65,7 +65,7 @@ numba==0.59.0
 numpy==1.26.4
 omegaconf==2.3.0
 onnxruntime==1.17.0
--e git+https://github.com/tristancgardner/whisper_progress.git@b2db560ca94d4b448a439d8f578b008bdb66a2ed#egg=openai_whisper
+-e git+https://github.com/tristancgardner/whisper.git#egg=openai_whisper
 optuna==3.5.0
 packaging==23.2
 pandas==2.2.0
@@ -135,6 +135,6 @@ tzlocal==5.2
 urllib3==2.2.1
 validators==0.22.0
 watchdog==4.0.0
--e git+https://github.com/tristancgardner/whisperTS_progress.git@759b8445e7ece33102959cb616d255bf9eb25848#egg=whisper_timestamped
+-e git+https://github.com/tristancgardner/whisper_timestamped.git#egg=whisper_timestamped
 yarl==1.9.4
 zipp==3.17.0
