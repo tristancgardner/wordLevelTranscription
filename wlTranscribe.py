@@ -9,15 +9,16 @@ st.write("Directory contents:", os.listdir())
 
 st.write("Python Path:", sys.path)
 
+import pkg_resources
 
-import os
-
+for dist in pkg_resources.working_set:
+    st.write(dist.project_name, ":", dist.location)
 
 #sys.path.append("/home/adminuser/venv/src/whisper-timestamped")
+
+
 # import whisper_timestamped as whisper
-
-#from whisper_timestamped import whisper_timestamped as whisper
-
+# from whisper_timestamped import whisper_timestamped as whisper
 
 import datetime
 from deepmultilingualpunctuation import PunctuationModel
