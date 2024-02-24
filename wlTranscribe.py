@@ -15,6 +15,8 @@ st.write("Contents of whisper_timestamped:", contents)
 # sys.path.append("/home/adminuser/venv/src")
 
 # import whisper_timestamped as whisper
+from whisper_timestamped import whisper_timestamped as whisper
+
 
 import datetime
 from deepmultilingualpunctuation import PunctuationModel
