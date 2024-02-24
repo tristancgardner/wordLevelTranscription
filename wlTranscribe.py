@@ -1,6 +1,8 @@
 # Word-Level Transcription v1.7.0 - 2024-02-15
 # got all the callbacks connected, just need to get a simple streamlit progress bar working based on it and im done with this
 import sys
+import streamlit as st
+
 
 st.write("Python Path:", sys.path)
 
@@ -17,7 +19,6 @@ import datetime
 import time
 from tqdm import tqdm
 
-import streamlit as st
 from io import BytesIO
 import tempfile
 from zipfile import ZipFile, ZIP_DEFLATED
