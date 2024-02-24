@@ -4,8 +4,8 @@ import sys
 import streamlit as st
 import os
 
-print("Current working directory:", os.getcwd())
-print("Directory contents:", os.listdir())
+st.write("Current working directory:", os.getcwd())
+st.write("Directory contents:", os.listdir())
 
 st.write("Python Path:", sys.path)
 
