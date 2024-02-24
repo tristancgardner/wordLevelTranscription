@@ -2,9 +2,13 @@
 # got all the callbacks connected, just need to get a simple streamlit progress bar working based on it and im done with this
 import sys
 import streamlit as st
+import os
 
+print("Current working directory:", os.getcwd())
+print("Directory contents:", os.listdir())
 
 st.write("Python Path:", sys.path)
+
 
 import os
 
