@@ -65,7 +65,7 @@ numba==0.59.0
 numpy==1.26.4e
 omegaconf==2.3.0
 onnxruntime==1.17.0
--e git+https://github.com/tristancgardner/whisper.git#egg=whisper
+-e git+https://github.com/tristancgardner/whisper.git#egg=openai-whisper
 optuna==3.5.0
 packaging==23.2
 pandas==2.2.0
