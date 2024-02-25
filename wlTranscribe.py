@@ -15,9 +15,9 @@ try:
 except Exception as e:
     st.write("Error:", e)
 
-import pkg_resources
-for dist in pkg_resources.working_set:
-    st.write(dist.project_name, ":", dist.location)
+# import pkg_resources
+# for dist in pkg_resources.working_set:
+#     st.write(dist.project_name, ":", dist.location)
 
 import whisper_timestamped as whisper
 
