@@ -1,16 +1,15 @@
 # Word-Level Transcription v1.7.0 - 2024-02-15
-# got all the callbacks connected, just need to get a simple streamlit progress bar working based on it and im done with this
 import sys
 import streamlit as st
 import os
 
-st.write("Current working directory:", os.getcwd())
-st.write("Directory contents:", os.listdir())
-st.write("Python Path:", sys.path)
+# st.write("Current working directory:", os.getcwd())
+# st.write("Directory contents:", os.listdir())
+# st.write("Python Path:", sys.path)
 
-import pkg_resources
-for dist in pkg_resources.working_set:
-    st.write(dist.project_name, ":", dist.location)
+# import pkg_resources
+# for dist in pkg_resources.working_set:
+#     st.write(dist.project_name, ":", dist.location)
 
 import whisper_timestamped as whisper
 
@@ -276,15 +275,15 @@ if transcribe_button and uploaded_files and not st.session_state.transcribe_init
 
     # print(f"\nThe script took {execution_time} minutes to complete.\n")
 
-import os
-st.write("System PATH:", os.environ.get("PATH"))
+# import os
+# st.write("System PATH:", os.environ.get("PATH"))
 
-import subprocess
-try:
-    result = subprocess.run(['which', 'ffmpeg'], capture_output=True, check=True, text=True)
-    st.write("FFmpeg path:", result.stdout)
-except Exception as e:
-    st.write("Error:", e)
+# import subprocess
+# try:
+#     result = subprocess.run(['which', 'ffmpeg'], capture_output=True, check=True, text=True)
+#     st.write("FFmpeg path:", result.stdout)
+# except Exception as e:
+#     st.write("Error:", e)
 
 
 # #* Process time results
