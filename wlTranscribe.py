@@ -279,8 +279,8 @@ if transcribe_button and uploaded_files and not st.session_state.transcribe_init
 
 import subprocess
 try:
-    result = subprocess.run(['ffmpeg', '-version'], capture_output=True, check=True, text=True)
-    st.write("FFmpeg version:", result.stdout)
+    result = subprocess.run(['which', 'ffmpeg'], capture_output=True, check=True, text=True)
+    st.write("FFmpeg path:", result.stdout)
 except Exception as e:
     st.write("Error:", e)
 
