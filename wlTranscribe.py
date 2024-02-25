@@ -8,11 +8,9 @@ st.write("Current working directory:", os.getcwd())
 st.write("Directory contents:", os.listdir())
 st.write("Python Path:", sys.path)
 
-
-
-# import pkg_resources
-# for dist in pkg_resources.working_set:
-#     st.write(dist.project_name, ":", dist.location)
+import pkg_resources
+for dist in pkg_resources.working_set:
+    st.write(dist.project_name, ":", dist.location)
 
 import whisper_timestamped as whisper
 
