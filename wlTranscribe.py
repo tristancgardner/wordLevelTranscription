@@ -6,8 +6,16 @@ import os
 
 st.write("Current working directory:", os.getcwd())
 st.write("Directory contents:", os.listdir())
-
 st.write("Python Path:", sys.path)
+
+import subprocess
+try:
+    result = subprocess.run(['ffmpeg', '-version'], capture_output=True, check=True, text=True)
+    st.write("FFmpeg version:", result.stdout)
+except Exception as e:
+    st.write("Error:", e)
+
+
 
 # import pkg_resources
 # for dist in pkg_resources.working_set:
