@@ -62,10 +62,10 @@ msgpack==1.0.7
 multidict==6.0.5
 networkx==3.2.1
 numba==0.59.0
-numpy==1.26.4
+numpy==1.26.4e
 omegaconf==2.3.0
 onnxruntime==1.17.0
--e git+https://github.com/tristancgardner/whisper.git#egg=openai_whisper
+-e git+https://github.com/tristancgardner/whisper.git#egg=whisper
 optuna==3.5.0
 packaging==23.2
 pandas==2.2.0
@@ -135,6 +135,6 @@ tzlocal==5.2
 urllib3==2.2.1
 validators==0.22.0
 watchdog==4.0.0
--e git+https://github.com/tristancgardner/whisper_timestamped.git#egg=whisper_timestamped
+-e git+https://github.com/tristancgardner/whisper-timestamped.git#egg=whisper_timestamped
 yarl==1.9.4
 zipp==3.17.0
