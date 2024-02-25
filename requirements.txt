@@ -62,7 +62,7 @@ msgpack==1.0.7
 multidict==6.0.5
 networkx==3.2.1
 numba==0.59.0
-numpy==1.26.4e
+numpy==1.26.4
 omegaconf==2.3.0
 onnxruntime==1.17.0
 -e git+https://github.com/tristancgardner/whisper.git#egg=openai-whisper
