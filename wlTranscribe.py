@@ -8,12 +8,7 @@ st.write("Current working directory:", os.getcwd())
 st.write("Directory contents:", os.listdir())
 st.write("Python Path:", sys.path)
 
-import subprocess
-try:
-    result = subprocess.run(['ffmpeg', '-version'], capture_output=True, check=True, text=True)
-    st.write("FFmpeg version:", result.stdout)
-except Exception as e:
-    st.write("Error:", e)
+
 
 # import pkg_resources
 # for dist in pkg_resources.working_set:
@@ -282,6 +277,14 @@ if transcribe_button and uploaded_files and not st.session_state.transcribe_init
     # progress_bar.close()
 
     # print(f"\nThe script took {execution_time} minutes to complete.\n")
+
+
+import subprocess
+try:
+    result = subprocess.run(['ffmpeg', '-version'], capture_output=True, check=True, text=True)
+    st.write("FFmpeg version:", result.stdout)
+except Exception as e:
+    st.write("Error:", e)
 
 
 # #* Process time results
