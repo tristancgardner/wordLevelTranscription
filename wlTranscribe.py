@@ -276,6 +276,8 @@ if transcribe_button and uploaded_files and not st.session_state.transcribe_init
 
     # print(f"\nThe script took {execution_time} minutes to complete.\n")
 
+import os
+st.write("System PATH:", os.environ.get("PATH"))
 
 import subprocess
 try:
