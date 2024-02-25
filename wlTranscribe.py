@@ -9,8 +9,7 @@ st.write("Directory contents:", os.listdir())
 
 st.write("Python Path:", sys.path)
 
-import pkg_resources
-
+# import pkg_resources
 # for dist in pkg_resources.working_set:
 #     st.write(dist.project_name, ":", dist.location)
 
