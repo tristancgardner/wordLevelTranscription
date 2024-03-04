@@ -3,7 +3,6 @@
 import sys
 import os
 
-import whisper_timestamped as whisper
 
 import datetime
 from deepmultilingualpunctuation import PunctuationModel
@@ -17,7 +16,12 @@ from tqdm import tqdm
 from io import BytesIO
 import tempfile
 from zipfile import ZipFile, ZIP_DEFLATED
-from moviepy.editor import VideoFileClip, AudioFileClip
+from moviepy.editor import AudioFileClip, VideoFileClip
+
+sys.path.append(
+    "D:\\Programming\\transcribeAuto\\wordLevelTranscription\\venv\\src\\whisper\\whisper"
+)
+import whisper_timestamped as whisper
 
 
 ## STREAMLIT FUNCTIONS
@@ -62,12 +66,14 @@ class ProgressBar:
             leave=False,
         )
 
-    def update(self, increment):
+    def update(self, increment, desc):
         self.pbar.update(increment)
+        self.pbar.set_description(desc)
 
-    def refresh(self, progress):
+    def refresh(self, progress, desc):
         self.pbar.n = progress
         self.pbar.refresh()
+        self.pbar.set_description(desc)
 
     def close(self):
         self.pbar.close()
@@ -104,17 +110,23 @@ def update_variable(
         return
     if update is not False:
         if use_tqdm:
-            progress_bar.update(progress)
+            progress_bar.update(progress, desc=description)
     else:
         if use_tqdm:
-            progress_bar.refresh(progress)
+            progress_bar.refresh(progress, desc=description)
+
+
+whisper_model = None
 
 
 ## CORE FUNCTIONS
 def wlTranscribe(file_path):
-    # print("\nTranscription begins...\n")
     audio = whisper.load_audio(file_path)
-    model = whisper.load_model("medium", device="cpu")
+
+    global whisper_model
+    whisper_model = "medium"
+    model = whisper.load_model(whisper_model, device="cuda")
+
     trans_base_dict = whisper.transcribe(
         model,
         audio,
@@ -150,8 +162,24 @@ def process_folder(folder_path):
 
 ## RUN FUCNCTIONS
 
-# * TRANSCRIPTION PROCESS
-file_path = "/Users/tristangardner/Documents/Programming/3. Test Media/Wayne Mayer/Test Transcription Snippets/5.1.mp4"  # (5 seconds)
+## WINDOWS OS
+file_list = [
+    r"D:\Programming\transcribeAuto\Test Media\WM_0.067min.mp4",
+    r"D:\Programming\transcribeAuto\Test Media\EXO_WM_S001_S001_T004_proxyWT_1.0min.mp4",
+    r"D:\Programming\transcribeAuto\Test Media\Mod 7 - psychology tips_6.5min.m4a",
+    r"D:\Programming\transcribeAuto\Test Media\Mod 5 - psychology examples_10.5min.m4a",
+    r"D:\Programming\transcribeAuto\Test Media\EXO_WM_S001_S001_T014_proxyWT_5.75min.mp4",  # 5th
+    r"D:\Programming\transcribeAuto\Test Media\Mod 7 - technology advancement examples_3.5min.m4a",
+]
+file_path = file_list[5]
+
+test_media_folder = r"D:\Programming\transcribeAuto\Test Media"
+
+if not os.path.exists(file_path):
+    print(f"File does not exist: {file_path}")
+
+## MAC_OS
+# file_path = "/Users/tristangardner/Documents/Programming/3. Test Media/Wayne Mayer/Test Transcription Snippets/5.1.mp4"  # (5 seconds)
 # file_path = "/Users/tristangardner/Documents/Programming/3. Test Media/Wayne Mayer/Full Proxies 240117/EXO_WM_S001_S001_T006_proxyWT.mp4"  # (3:52 minutes)
 # file_path = "/Users/tristangardner/Documents/Programming/3. Test Media/Wayne Mayer/Test Transcription Snippets/EXO_WM_S001_S001_T004_proxyWT (1.5min) copy.mp4"  # (1.5 minutes)
 
@@ -159,22 +187,39 @@ file_path = "/Users/tristangardner/Documents/Programming/3. Test Media/Wayne May
 
 start_time = time.time()
 
+
+#! if it's a folder, process all files in the folder
+# if os.path.isdir(file_path):
+#     process_folder(file_path)
+
+
 trans_result = wlTranscribe(file_path)
+
+# for path in sys.path: # debugs module import issues
+#     print(path)
 
 file_name = os.path.splitext(os.path.basename(file_path))[0]
 toJson(trans_result, os.path.basename(file_name))
 end_time = time.time()
 execution_time = end_time - start_time
 execution_time = execution_time / 60
-execution_time = round(execution_time, 1)
+execution_time = round(execution_time, 2)
 
 print(f"\nThe script took {execution_time} minutes to complete.\n")
 
-# #* Process time results
-# 1.0 min file --process time--> 1.32 minutes
-# 3.5 min file --process time--> 5.3 minutes
-# 10.5 min file --process time--> 16.3 minutes
+
+# get duration of file and print
+duration = get_media_duration(file_path)
+duration = format_duration(duration)
 
 
-# 3.9 min file --process time--> 5.0 mintues
-# 6.65 min file --process time--> __ minutes
+ptimes_file_path = os.path.join(os.getcwd(), "process_times.csv")
+
+if not os.path.exists(ptimes_file_path):
+    with open(ptimes_file_path, "w") as file:
+        file.write("File, Duration, Process Time, Model\n")
+        file.write(f"{file_path}, {duration}, {execution_time}, {whisper_model}\n")
+
+else:
+    with open(ptimes_file_path, "a") as file:
+        file.write(f"{file_path}, {duration}, {execution_time}, {whisper_model}\n")
