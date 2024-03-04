@@ -1,15 +1,7 @@
-# Word-Level Transcription v1.7.0 - 2024-02-15
+# Word-Level Transcription v1.7.0 - 2024-03-03
+# removing streamlit shit
 import sys
-import streamlit as st
 import os
-
-# st.write("Current working directory:", os.getcwd())
-# st.write("Directory contents:", os.listdir())
-# st.write("Python Path:", sys.path)
-
-# import pkg_resources
-# for dist in pkg_resources.working_set:
-#     st.write(dist.project_name, ":", dist.location)
 
 import whisper_timestamped as whisper
 
@@ -50,11 +42,7 @@ def dateTime(file_name):
     return f"{file_name}_{date_time_str}"
 
 
-def toJson(dictionary, file_name):
-    return json.dumps(dictionary, indent=4)
-
-
-def toJson_OG(dictionary, file_name, prefix=""):
+def toJson(dictionary, file_name, prefix=""):
     if prefix != "":
         file_name_with_prefix = f"{prefix}_{file_name}"
         file_name = file_name_with_prefix
@@ -62,8 +50,7 @@ def toJson_OG(dictionary, file_name, prefix=""):
     file_name_with_date += ".json"
 
     with open(file_name_with_date, "w") as file:
-        result_json = json.dump(dictionary, file, indent=4)
-    return result_json
+        json.dump(dictionary, file, indent=4)
 
 
 class ProgressBar:
@@ -90,33 +77,8 @@ class ProgressBar:
         self.pbar.reset(total=total_reset)
 
 
-use_tqdm = False
+use_tqdm = True
 progress_bar = None
-
-# * STREAMLIT SETUP
-if "transcribe_initiated" not in st.session_state:
-    st.session_state.transcribe_initiated = False
-
-if "progress" not in st.session_state:
-    st.session_state.progress = 0
-
-if "transcribing_file" not in st.session_state:
-    st.session_state.transcribing_file = False
-
-if "start_time" not in st.session_state:
-    st.session_state.start_time = None
-
-
-st.title("ModalMix Pro")
-st.markdown("**Pre-Render Files for Auto-Assembly**")
-
-uploaded_files = st.file_uploader(
-    "Upload video or audio files or a zipped folder of files for transcription!",
-    accept_multiple_files=True,
-)
-
-transcribe_button = st.button("Transcribe")
-
 progress_length = None  # ? not sure I even need this
 
 
@@ -131,35 +93,21 @@ def update_variable(
     description=None,
     reset=None,
 ):
-    global progress_length  # ? make sure this doesn't need to be cleared before re-running - yeah pretty sure not needed (240222)
-    if progress_length is None:
 
-        if (
-            total_frames is not None
-        ):  # ? not sure I even need this if all the callback calls give relative percentages - yeah pretty sure not needed (240222)
-            progress_length = total_frames
-
-    if decode_increment == True:
-        progress = progress + st.session_state.progress
-    st.session_state.progress = progress
-
-    st_progress_bar.progress(st.session_state.progress, text=description)
-
-    if stream is not True:
-        global progress_bar
-        if progress_bar is None:
-            if use_tqdm:
-                progress_bar = ProgressBar(total=total_frames, desc=description)
-        if reset is True:
-            if use_tqdm:
-                progress_bar.reset(progress)
-            return
-        if update is not False:
-            if use_tqdm:
-                progress_bar.update(progress)
-        else:
-            if use_tqdm:
-                progress_bar.refresh(progress)
+    global progress_bar
+    if progress_bar is None:
+        if use_tqdm:
+            progress_bar = ProgressBar(total=total_frames, desc=description)
+    if reset is True:
+        if use_tqdm:
+            progress_bar.reset(progress)
+        return
+    if update is not False:
+        if use_tqdm:
+            progress_bar.update(progress)
+    else:
+        if use_tqdm:
+            progress_bar.refresh(progress)
 
 
 ## CORE FUNCTIONS
@@ -202,89 +150,25 @@ def process_folder(folder_path):
 
 ## RUN FUCNCTIONS
 
-
-# * STREAMLIT SETUP
-def __streamlit_setup_folder():
-    # Initialize session state variables for tracking transcription initiation
-
-    # get estimated wait time
-    # if uploaded_files and not st.session_state.transcribe_initiated:
-    #     with tempfile.TemporaryDirectory() as temp_dir:
-    #         total_duration_seconds = 0
-    #         for uploaded_file in uploaded_files:
-    #             temp_file_path = os.path.join(temp_dir, uploaded_file.name)
-    #             with open(temp_file_path, "wb") as f:
-    #                 f.write(uploaded_file.getbuffer())
-    #             total_duration_seconds += get_video_duration(temp_file_path)
-
-    #     st.write(
-    #         f"Estimated total wait time for all files: {format_duration(total_duration_seconds)}"
-    #     )
-    return
-
-
 # * TRANSCRIPTION PROCESS
-# file_path = "/Users/tristangardner/Documents/Programming/3. Test Media/Wayne Mayer/Test Transcription Snippets/5.1.mp4"  # (5 seconds)
+file_path = "/Users/tristangardner/Documents/Programming/3. Test Media/Wayne Mayer/Test Transcription Snippets/5.1.mp4"  # (5 seconds)
 # file_path = "/Users/tristangardner/Documents/Programming/3. Test Media/Wayne Mayer/Full Proxies 240117/EXO_WM_S001_S001_T006_proxyWT.mp4"  # (3:52 minutes)
-file_path = "/Users/tristangardner/Documents/Programming/3. Test Media/Wayne Mayer/Test Transcription Snippets/EXO_WM_S001_S001_T004_proxyWT (1.5min) copy.mp4"  # (1.5 minutes)
+# file_path = "/Users/tristangardner/Documents/Programming/3. Test Media/Wayne Mayer/Test Transcription Snippets/EXO_WM_S001_S001_T004_proxyWT (1.5min) copy.mp4"  # (1.5 minutes)
 
 # audio_folder = "/Users/tristangardner/Documents/Programming/3. Test Videos/Wayne Mayer/Full Proxies 240117"
 
-if transcribe_button and uploaded_files and not st.session_state.transcribe_initiated:
-    st.session_state.transcribe_initiated = True
+start_time = time.time()
 
-    with tempfile.TemporaryDirectory() as temp_dir, BytesIO() as zip_buffer:
-        with ZipFile(zip_buffer, "w", ZIP_DEFLATED) as zf:
-            for i, uploaded_file in enumerate(uploaded_files):
-                temp_file_path = os.path.join(temp_dir, uploaded_file.name)
-                with open(temp_file_path, "wb") as f:
-                    f.write(uploaded_file.getbuffer())
+trans_result = wlTranscribe(file_path)
 
-                file_duration = get_media_duration(temp_file_path)
-                st.write(f"Estimated render time: {format_duration(file_duration)}")
-                st_progress_bar = st.progress(
-                    st.session_state.progress, text="Decoding..."
-                )
-                # st.session_state.start_time = time.time()
-                # st.session_state.transcribing_file = True
-                start_time = time.time()
+file_name = os.path.splitext(os.path.basename(file_path))[0]
+toJson(trans_result, os.path.basename(file_name))
+end_time = time.time()
+execution_time = end_time - start_time
+execution_time = execution_time / 60
+execution_time = round(execution_time, 1)
 
-                trans_result = wlTranscribe(temp_file_path)
-
-                json_content = toJson(trans_result, os.path.basename(temp_file_path))
-
-                zf.writestr(os.path.basename(temp_file_path) + ".json", json_content)
-
-                end_time = time.time()
-                execution_time = end_time - start_time
-                execution_time = execution_time / 60
-                execution_time = round(execution_time, 1)
-                # st.session_state.transcribing_file = False
-                # st.session_state.start_time = None
-                st.write(f"\nThe script took {execution_time} minutes to complete.\n")
-
-        zip_buffer.seek(0)
-        st.download_button(
-            "Download All Transcriptions",
-            data=zip_buffer.getvalue(),
-            file_name="transcriptions.zip",
-            mime="application/zip",
-        )
-
-    # progress_bar.close()
-
-    # print(f"\nThe script took {execution_time} minutes to complete.\n")
-
-# import os
-# st.write("System PATH:", os.environ.get("PATH"))
-
-# import subprocess
-# try:
-#     result = subprocess.run(['which', 'ffmpeg'], capture_output=True, check=True, text=True)
-#     st.write("FFmpeg path:", result.stdout)
-# except Exception as e:
-#     st.write("Error:", e)
-
+print(f"\nThe script took {execution_time} minutes to complete.\n")
 
 # #* Process time results
 # 1.5 min file --process time--> 1.32 minutes
