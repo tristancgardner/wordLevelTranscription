@@ -171,8 +171,10 @@ execution_time = round(execution_time, 1)
 print(f"\nThe script took {execution_time} minutes to complete.\n")
 
 # #* Process time results
-# 1.5 min file --process time--> 1.32 minutes
-# 3.9 min file --process time--> 5.0 mintues
+# 1.0 min file --process time--> 1.32 minutes
 # 3.5 min file --process time--> 5.3 minutes
 # 10.5 min file --process time--> 16.3 minutes
+
+
+# 3.9 min file --process time--> 5.0 mintues
 # 6.65 min file --process time--> __ minutes
