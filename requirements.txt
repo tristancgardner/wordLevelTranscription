@@ -101,7 +101,7 @@ safetensors==0.4.2
 scikit-learn==1.4.1.post1
 scipy==1.12.0
 semver==3.0.2
-sentencepiece==0.1.99
+sentencepiece
 shellingham==1.5.4
 six==1.16.0
 smmap==5.0.1
