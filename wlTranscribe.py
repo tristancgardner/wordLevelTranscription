@@ -18,6 +18,7 @@ import tempfile
 from zipfile import ZipFile, ZIP_DEFLATED
 from moviepy.editor import AudioFileClip, VideoFileClip
 
+
 sys.path.append(
     "D:\\Programming\\transcribeAuto\\wordLevelTranscription\\venv\\src\\whisper\\whisper"
 )
@@ -117,15 +118,17 @@ def update_variable(
 
 
 whisper_model = None
+torch_device = None
 
 
 ## CORE FUNCTIONS
 def wlTranscribe(file_path):
     audio = whisper.load_audio(file_path)
 
-    global whisper_model
+    global whisper_model, torch_device
     whisper_model = "medium"
-    model = whisper.load_model(whisper_model, device="cuda")
+    torch_device = "cuda"
+    model = whisper.load_model(whisper_model, device=torch_device)
 
     trans_base_dict = whisper.transcribe(
         model,
@@ -147,7 +150,7 @@ def addPunct(text):
     return result
 
 
-def process_folder(folder_path):
+def process_folder(folder_path):  # needs updating 240303
     for file in os.listdir(folder_path):
         if file.endswith(
             ".mp4"
@@ -170,56 +173,75 @@ file_list = [
     r"D:\Programming\transcribeAuto\Test Media\Mod 5 - psychology examples_10.5min.m4a",
     r"D:\Programming\transcribeAuto\Test Media\EXO_WM_S001_S001_T014_proxyWT_5.75min.mp4",  # 5th
     r"D:\Programming\transcribeAuto\Test Media\Mod 7 - technology advancement examples_3.5min.m4a",
+    r"D:\Programming\transcribeAuto\Test Media\Wayne Mayer\EXO_WM_S001_S001_T006.mp4",
+    r"D:\Programming\transcribeAuto\Test Media\Suora Course\CNXA_S001_S001_T004_1_1.wav",
+    r"D:\Programming\transcribeAuto\Test Media\Suora Course\CNXA_S001_S001_T002_1_1.wav",
+    # 10th
 ]
-file_path = file_list[5]
-
-test_media_folder = r"D:\Programming\transcribeAuto\Test Media"
-
-if not os.path.exists(file_path):
-    print(f"File does not exist: {file_path}")
-
-## MAC_OS
-# file_path = "/Users/tristangardner/Documents/Programming/3. Test Media/Wayne Mayer/Test Transcription Snippets/5.1.mp4"  # (5 seconds)
-# file_path = "/Users/tristangardner/Documents/Programming/3. Test Media/Wayne Mayer/Full Proxies 240117/EXO_WM_S001_S001_T006_proxyWT.mp4"  # (3:52 minutes)
-# file_path = "/Users/tristangardner/Documents/Programming/3. Test Media/Wayne Mayer/Test Transcription Snippets/EXO_WM_S001_S001_T004_proxyWT (1.5min) copy.mp4"  # (1.5 minutes)
-
-# audio_folder = "/Users/tristangardner/Documents/Programming/3. Test Videos/Wayne Mayer/Full Proxies 240117"
-
-start_time = time.time()
 
 
 #! if it's a folder, process all files in the folder
 # if os.path.isdir(file_path):
 #     process_folder(file_path)
 
+test_media_folder = r"D:\Programming\transcribeAuto\Test Media"
 
-trans_result = wlTranscribe(file_path)
+audio_folder = r"D:\Programming\transcribeAuto\Test Media\Suora Course"
 
-# for path in sys.path: # debugs module import issues
-#     print(path)
-
-file_name = os.path.splitext(os.path.basename(file_path))[0]
-toJson(trans_result, os.path.basename(file_name))
-end_time = time.time()
-execution_time = end_time - start_time
-execution_time = execution_time / 60
-execution_time = round(execution_time, 2)
-
-print(f"\nThe script took {execution_time} minutes to complete.\n")
+single_file_path = file_list[8]
 
 
-# get duration of file and print
-duration = get_media_duration(file_path)
-duration = format_duration(duration)
+def transcribe(file_path):
+    start_time = time.time()
+
+    trans_result = wlTranscribe(file_path)
+
+    file_name = os.path.splitext(os.path.basename(file_path))[0]
+    toJson(trans_result, os.path.basename(file_name))
+    end_time = time.time()
+    execution_time = end_time - start_time
+    execution_time = execution_time / 60
+    execution_time = round(execution_time, 2)
+
+    print(f"\nThe script took {execution_time} minutes to complete.\n")
+
+    return execution_time
 
 
-ptimes_file_path = os.path.join(os.getcwd(), "process_times.csv")
+def record_process_times(file_path, execution_time):
+    # get duration of file and print
+    duration = get_media_duration(file_path)
+    # duration = format_duration(duration)
 
-if not os.path.exists(ptimes_file_path):
-    with open(ptimes_file_path, "w") as file:
-        file.write("File, Duration, Process Time, Model\n")
-        file.write(f"{file_path}, {duration}, {execution_time}, {whisper_model}\n")
+    ptimes_file_path = os.path.join(os.getcwd(), "process_times.csv")
+
+    file_type = os.path.splitext(file_path)[1]
+
+    if not os.path.exists(ptimes_file_path):
+        with open(ptimes_file_path, "w") as file:
+            file.write("File, File Type Duration, Process Time, Model, Torch Device\n")
+            file.write(
+                f"{file_path}, {file_type}, {duration}, {execution_time}, {whisper_model}, {torch_device}\n"
+            )
+
+    else:
+        with open(ptimes_file_path, "a") as file:
+            file.write(
+                f"{file_path}, {file_type}, {duration}, {execution_time}, {whisper_model}, {torch_device}\n"
+            )
+
+
+if single_file_path:
+    execution_time = transcribe(single_file_path)
+    record_process_times(single_file_path, execution_time)
+
+    progress_bar.reset(0)
 
 else:
-    with open(ptimes_file_path, "a") as file:
-        file.write(f"{file_path}, {duration}, {execution_time}, {whisper_model}\n")
+    for filename in os.listdir(audio_folder):
+        file_path = os.path.join(audio_folder, filename)
+
+        execution_time = transcribe(file_path)
+        record_process_times(file_path, execution_time)
+
+        progress_bar.reset(0)
