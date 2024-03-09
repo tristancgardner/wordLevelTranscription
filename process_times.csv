@@ -1,0 +1,23 @@
+File,File Length (min),Process Time (min),Model,Torch Device,File Type
+D:\Programming\transcribeAuto\Test Media\EXO_WM_S001_S001_T004_proxyWT_1.0min.mp4,1,1.3,medium,M2 Silicon,mp4
+D:\Programming\transcribeAuto\Test Media\EXO_WM_S001_S001_T006_proxyWT.mp4,3.85,,medium,M2 Silicon,mp4
+Mod 5 - psychology examples.m4a,10.8,16.,medium,M2 Silicon,m4a
+Mod 7 - psychology tips.m4a,6.65,6.,medium,M2 Silicon,m4a
+Mod 7 - technology advancement examples.m4a,3.5,5.,medium,M2 Silicon,m4a
+D:\Programming\transcribeAuto\Test Media\WM_0.067min.mp4,0.067,0.,medium,RTX 3060 Ti CUDA 12,mp4
+D:\Programming\transcribeAuto\Test Media\EXO_WM_S001_S001_T004_proxyWT_1.0min.mp4,1.0,0.,medium,RTX 3060 Ti CUDA 12,mp4
+D:\Programming\transcribeAuto\Test Media\EXO_WM_S001_S001_T014_proxyWT_5.75min.mp4,6.0,1.0,medium,RTX 3060 Ti CUDA 12,mp4
+D:\Programming\transcribeAuto\Test Media\Mod 7 - psychology tips_6.5min.m4a,7.0,1.8,medium,RTX 3060 Ti CUDA 12,m4a
+D:\Programming\transcribeAuto\Test Media\Mod 5 - psychology examples_10.5min.m4a,10.8,2.,medium,RTX 3060 Ti CUDA 12,m4a
+C:\Users\trist\Documents\Programming\WM_1min.mp4,0.05,0.,medium,RTX 3060 Ti CUDA 12,mp4
+C:\Users\trist\Documents\Programming\WM_1min.mp4,0.05,0.,medium,RTX 3060 Ti CUDA 12,mp4
+D:\Programming\transcribeAuto\Test Media\EXO_WM_S001_S001_T004_proxyWT_1.0min.mp4,1,0.,medium,RTX 3060 Ti CUDA 12,mp4
+D:\Programming\transcribeAuto\Test Media\EXO_WM_S001_S001_T014_proxyWT_5.75min.mp4,5.75,1.0,medium,RTX 3060 Ti CUDA 12,mp4
+D:\Programming\transcribeAuto\Test Media\Mod 7 - psychology tips_6.5min.m4a,6.82,1.8,medium,RTX 3060 Ti CUDA 12,m4a
+D:\Programming\transcribeAuto\Test Media\Mod 7 - psychology tips_6.5min.m4a,6.82,1.7,medium,RTX 3060 Ti CUDA 12,m4a
+D:\Programming\transcribeAuto\Test Media\Mod 5 - psychology examples_10.5min.m4a,10.82,2.,medium,RTX 3060 Ti CUDA 12,m4a
+D:\Programming\transcribeAuto\Test Media\Mod 7 - technology advancement examples_3.5min.m4a,3.55,1.0,medium,RTX 3060 Ti CUDA 12,m4a
+D:\Programming\transcribeAuto\Test Media\Suora Course\CNXA_S001_S001_T001_1_1.wav,25.99,6.0,medium,RTX 3060 Ti CUDA 12,.wav
+D:\Programming\transcribeAuto\Test Media\Suora Course\CNXA_S001_S001_T002_1_1.wav,4.24,1.1,medium,RTX 3060 Ti CUDA 12,.wav
+D:\Programming\transcribeAuto\Test Media\Suora Course\CNXA_S001_S001_T003_1_1.wav,19.19,5.6,medium,RTX 3060 Ti CUDA 12,.wavD:\Programming\transcribeAuto\Test Media\Suora Course\CNXA_S001_S001_T004_1_1.wav, .wav, 2201.91, 7.6, medium, cuda
+D:\Programming\transcribeAuto\Test Media\Suora Course\CNXA_S001_S001_T002_1_1.wav, .wav, 254.3, 0.98, medium, cuda
